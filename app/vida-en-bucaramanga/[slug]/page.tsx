@@ -13,10 +13,10 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (!article) return {};
   const path = `/vida-en-bucaramanga/${article.slug}`;
   return {
-    title: article.title,
+    title: { absolute: article.title },
     description: article.description,
-    alternates: { canonical: path, languages: { "es-CO": path, en: `/en/living-in-bucaramanga/${article.alternateSlug}` } },
-    openGraph: { title: article.title, description: article.description, url: path, locale: "es_CO", type: "article", images: article.heroImage ? [{ url: article.heroImage, alt: article.heroAlt }] : undefined }
+    alternates: { canonical: path, languages: { "es-CO": path, en: `/en/living-in-bucaramanga/${article.alternateSlug}`, "x-default": path } },
+    openGraph: { title: article.title, description: article.description, url: path, siteName: "Live Bucaramanga", locale: "es_CO", type: "article", images: article.heroImage ? [{ url: article.heroImage, alt: article.heroAlt }] : undefined }
   };
 }
 
