@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import GoogleAnalytics from "./google-analytics";
 import { siteUrl } from "./site-config";
 
 export const metadata: Metadata = {
@@ -42,7 +43,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es-CO">
-      <body className="antialiased">{children}</body>
+      <body className="antialiased">
+        {children}
+        <GoogleAnalytics />
+      </body>
     </html>
   );
 }
