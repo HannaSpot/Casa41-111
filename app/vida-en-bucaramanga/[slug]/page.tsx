@@ -16,7 +16,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     title: { absolute: article.title },
     description: article.description,
     alternates: { canonical: path, languages: { "es-CO": path, en: `/en/living-in-bucaramanga/${article.alternateSlug}`, "x-default": path } },
-    openGraph: { title: article.title, description: article.description, url: path, siteName: "Live Bucaramanga", locale: "es_CO", type: "article", images: article.heroImage ? [{ url: article.heroImage, alt: article.heroAlt }] : undefined }
+    openGraph: { title: article.title, description: article.description, url: path, siteName: "Live Bucaramanga", locale: "es_CO", type: "article", images: article.heroImage ? [{ url: article.heroImage, alt: article.heroAlt }] : undefined },
+    twitter: { card: "summary_large_image", title: article.title, description: article.description, images: article.heroImage ? [article.heroImage] : undefined }
   };
 }
 

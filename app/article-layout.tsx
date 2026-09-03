@@ -79,7 +79,7 @@ export default function ArticleLayout({ article }: { article: Article }) {
           <h2>{isSpanish ? "Conoce la propiedad en Altos de Cabecera." : "See the property in Altos de Cabecera."}</h2>
           <p>{isSpanish ? "Una casa familiar amplia, en venta directa por sus propietarios." : "A spacious family home offered directly by its owners."}</p>
           <Link className="button primary" href={isSpanish ? "/#espacios" : "/en/#spaces"}>{isSpanish ? "Ver la casa" : "View the house"}</Link>
-          <Link className="asideWhatsapp" href={`https://wa.me/573126084753?text=${encodeURIComponent(isSpanish ? "Hola, quisiera información sobre la Casa 41-111" : "Hello, I would like information about Casa 41-111")}`} target="_blank">WhatsApp</Link>
+          <Link className="asideWhatsapp" href={`https://wa.me/573126084753?text=${encodeURIComponent(isSpanish ? "Hola, quisiera información sobre la Casa 41-111" : "Hello, I would like information about Casa 41-111")}`} target="_blank" rel="noopener noreferrer">WhatsApp</Link>
         </aside>
       </div>
     </article>
