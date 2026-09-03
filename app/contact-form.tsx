@@ -1,6 +1,7 @@
 "use client";
 
 import { FormEvent, useState } from "react";
+import { trackGenerateLead } from "./analytics-events";
 
 const options = {
   es: ["VIVIR", "RENOVAR", "TU OFICINA", "ALOJAMIENTO BOUTIQUE", "INVERSIÓN", "OTROS"],
@@ -14,6 +15,7 @@ export default function ContactForm({ lang = "es" }: { lang?: "es" | "en" }) {
 
   function submit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
+    trackGenerateLead({ location: "contact_form", leadInterest: interest, pageLanguage: lang });
     const message = lang === "es"
       ? `Hola, soy ${name || "un comprador interesado"}. Me interesa la Casa 41-111 para: ${interest}. Quisiera recibir más información.`
       : `Hello, I am ${name || "an interested buyer"}. I am considering Casa 41-111 for: ${interest}. I would like more information.`;
