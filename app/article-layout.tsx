@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Article } from "./articles";
 import { siteUrl } from "./site-config";
+import { ContactLink, WhatsAppLink } from "./tracked-links";
 
 export default function ArticleLayout({ article }: { article: Article }) {
   const isSpanish = article.lang === "es";
@@ -43,7 +44,7 @@ export default function ArticleLayout({ article }: { article: Article }) {
       <nav aria-label={isSpanish ? "Navegación del artículo" : "Article navigation"}>
         <Link href={indexHref}>{isSpanish ? "Vida en Bucaramanga" : "Living in Bucaramanga"}</Link>
         <Link className="langSwitch" href={alternateHref}>{isSpanish ? "EN" : "ES"}</Link>
-        <Link className="navCta" href={isSpanish ? "/#contacto" : "/en/#contact"}>{isSpanish ? "Conversemos" : "Contact"}</Link>
+        <ContactLink className="navCta" href={isSpanish ? "/#contacto" : "/en/#contact"} location="nav_article" lang={article.lang}>{isSpanish ? "Conversemos" : "Contact"}</ContactLink>
       </nav>
     </header>
 
@@ -79,7 +80,7 @@ export default function ArticleLayout({ article }: { article: Article }) {
           <h2>{isSpanish ? "Conoce la propiedad en Altos de Cabecera." : "See the property in Altos de Cabecera."}</h2>
           <p>{isSpanish ? "Una casa familiar amplia, en venta directa por sus propietarios." : "A spacious family home offered directly by its owners."}</p>
           <Link className="button primary" href={isSpanish ? "/#espacios" : "/en/#spaces"}>{isSpanish ? "Ver la casa" : "View the house"}</Link>
-          <Link className="asideWhatsapp" href={`https://wa.me/573126084753?text=${encodeURIComponent(isSpanish ? "Hola, quisiera información sobre la Casa 41-111" : "Hello, I would like information about Casa 41-111")}`} target="_blank" rel="noopener noreferrer">WhatsApp</Link>
+          <WhatsAppLink className="asideWhatsapp" href={`https://wa.me/573126084753?text=${encodeURIComponent(isSpanish ? "Hola, quisiera información sobre la Casa 41-111" : "Hello, I would like information about Casa 41-111")}`} location="article_aside" lang={article.lang}>WhatsApp</WhatsAppLink>
         </aside>
       </div>
     </article>

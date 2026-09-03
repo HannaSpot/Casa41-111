@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ContactLink } from "./tracked-links";
 import type { Article } from "./articles";
 
 export default function ArticleIndex({ lang, articles }: { lang: "es" | "en"; articles: Article[] }) {
@@ -9,7 +10,7 @@ export default function ArticleIndex({ lang, articles }: { lang: "es" | "en"; ar
       <nav aria-label={isSpanish ? "Navegación principal" : "Main navigation"}>
         <Link href={isSpanish ? "/" : "/en"}>{isSpanish ? "La casa" : "The house"}</Link>
         <Link className="langSwitch" href={isSpanish ? "/en/living-in-bucaramanga" : "/vida-en-bucaramanga"}>{isSpanish ? "EN" : "ES"}</Link>
-        <Link className="navCta" href={isSpanish ? "/#contacto" : "/en/#contact"}>{isSpanish ? "Conversemos" : "Contact"}</Link>
+        <ContactLink className="navCta" href={isSpanish ? "/#contacto" : "/en/#contact"} location="nav_article_index" lang={lang}>{isSpanish ? "Conversemos" : "Contact"}</ContactLink>
       </nav>
     </header>
     <section className="articleIndexHero"><div className="shell"><p className="eyebrow">{isSpanish ? "Guía local" : "A local guide"}</p><h1>{isSpanish ? "Vida en Bucaramanga" : "Living in Bucaramanga"}</h1><p>{isSpanish ? "Historias y guías prácticas sobre Altos de Cabecera, mercados, caminatas, comida y la experiencia cotidiana de vivir en la ciudad." : "Practical guides to Altos de Cabecera, food markets, walking routes, local food and everyday life in the city."}</p></div></section>
