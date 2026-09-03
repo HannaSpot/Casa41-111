@@ -11,21 +11,35 @@ export default function ArticleLayout({ article }: { article: Article }) {
   const canonicalPath = `${indexHref}/${article.slug}`;
   const schema = {
     "@context": "https://schema.org",
-    "@type": "BlogPosting",
-    headline: article.title,
-    description: article.description,
-    inLanguage: isSpanish ? "es-CO" : "en",
-    datePublished: "2026-09-01",
-    dateModified: "2026-09-01",
-    author: { "@type": "Person", name: "Familia propietaria de Casa 41·111" },
-    publisher: { "@type": "Organization", name: "Casa 41·111" },
-    mainEntityOfPage: `${siteUrl}${canonicalPath}`,
-    image: article.heroImage ? `${siteUrl}${article.heroImage}` : `${siteUrl}/casa/fachada-cielo-azul.webp`
+    "@graph": [
+      {
+        "@type": "BlogPosting",
+        "@id": `${siteUrl}${canonicalPath}#article`,
+        url: `${siteUrl}${canonicalPath}`,
+        headline: article.title,
+        description: article.description,
+        inLanguage: isSpanish ? "es-CO" : "en",
+        datePublished: "2026-09-01",
+        dateModified: "2026-09-03",
+        author: { "@type": "Person", name: "Familia propietaria de Casa 41·111" },
+        publisher: { "@type": "Organization", name: "Live Bucaramanga", url: siteUrl },
+        mainEntityOfPage: `${siteUrl}${canonicalPath}`,
+        image: article.heroImage ? `${siteUrl}${article.heroImage}` : `${siteUrl}/casa/fachada-cielo-azul.webp`
+      },
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Live Bucaramanga", item: `${siteUrl}${isSpanish ? "/" : "/en"}` },
+          { "@type": "ListItem", position: 2, name: isSpanish ? "Vida en Bucaramanga" : "Living in Bucaramanga", item: `${siteUrl}${indexHref}` },
+          { "@type": "ListItem", position: 3, name: article.title, item: `${siteUrl}${canonicalPath}` }
+        ]
+      }
+    ]
   };
 
   return <main className="articlePage" lang={article.lang}>
     <header className="articleNav shell">
-      <Link className="brand" href={isSpanish ? "/" : "/en"}>Casa 41·111</Link>
+      <Link className="brand" href={isSpanish ? "/" : "/en"}>Live Bucaramanga</Link>
       <nav aria-label={isSpanish ? "Navegación del artículo" : "Article navigation"}>
         <Link href={indexHref}>{isSpanish ? "Vida en Bucaramanga" : "Living in Bucaramanga"}</Link>
         <Link className="langSwitch" href={alternateHref}>{isSpanish ? "EN" : "ES"}</Link>
@@ -42,7 +56,7 @@ export default function ArticleLayout({ article }: { article: Article }) {
             <p className="articleIntro">{article.intro}</p>
             <div className="articleMeta"><span>{isSpanish ? "Actualizado el 1 de septiembre de 2026" : "Updated September 1, 2026"}</span><span>{article.readingTime}</span></div>
           </div>
-          {article.heroImage && <figure className="articleHeroImage"><img src={article.heroImage} alt={article.heroAlt || ""}/></figure>}
+          {article.heroImage && <figure className="articleHeroImage"><img src={article.heroImage} alt={article.heroAlt || ""} loading="eager" fetchPriority="high" decoding="async"/></figure>}
         </div>
       </header>
 
@@ -71,7 +85,7 @@ export default function ArticleLayout({ article }: { article: Article }) {
     </article>
 
     <section className="articleNext"><div className="shell"><p className="eyebrow">{isSpanish ? "Sigue explorando" : "Keep exploring"}</p><h2>{isSpanish ? "Conoce Bucaramanga desde la vida cotidiana." : "Discover Bucaramanga through everyday life."}</h2><Link className="button outline" href={indexHref}>{isSpanish ? "Ver todos los artículos" : "View all articles"}</Link></div></section>
-    <footer className="shell"><span>Casa 41·111</span><span>{isSpanish ? "Venta directa por sus propietarios · Bucaramanga" : "For sale directly by its owners · Bucaramanga"}</span></footer>
+    <footer className="shell"><span>Live Bucaramanga · Casa 41·111</span><span>{isSpanish ? "Venta directa por sus propietarios · Bucaramanga" : "For sale directly by its owners · Bucaramanga"}</span></footer>
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}/>
   </main>;
 }
