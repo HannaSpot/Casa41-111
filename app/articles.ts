@@ -149,7 +149,7 @@ export const spanishArticles: Article[] = [
         heading: "Parque de Los Leones y Enrique Viviescas",
         paragraphs: [
           "Para una salida corta, el Parque de Los Leones funciona como punto de llegada, descanso o ejercicio. Tiene espacios para caminar y realizar actividad física. El parque Enrique Viviescas, conocido por muchos vecinos como el Parque de los Perros, es otro destino cercano para pasear y encontrarse con la vida de barrio.",
-          "Estos recorridos pueden hacerse sin automóvil desde la propiedad. En una guía final añadiremos las distancias medidas, duración aproximada y nivel de inclinación de cada trayecto."
+          "Ambos recorridos pueden hacerse sin automóvil desde la propiedad. La duración depende del ritmo, la ruta elegida y la pendiente; para una primera salida conviene comenzar con un trayecto corto y reconocer el regreso con luz de día."
         ]
       },
       {
@@ -207,7 +207,7 @@ export const spanishArticles: Article[] = [
         heading: "La Concordia",
         paragraphs: [
           "La Concordia es una plaza tradicional ubicada en la calle 50 con carrera 20. Los directorios actuales muestran actividad desde muy temprano y cierre durante la tarde, con horarios más madrugadores de miércoles a sábado.",
-          "En la versión final de esta guía añadiremos qué productos preferimos comprar allí, opciones de estacionamiento y fotografías propias. Así evitamos convertir el artículo en una simple recopilación de horarios."
+          "Antes de ir conviene confirmar el horario del día y decidir cómo llegar, porque la actividad y las opciones de estacionamiento cambian según la hora. La visita permite comparar precios y productos con otras plazas de la ciudad."
         ]
       },
       {
@@ -276,9 +276,9 @@ export const spanishArticles: Article[] = [
         ]
       },
       {
-        heading: "Una guía que crecerá con recomendaciones reales",
+        heading: "Cómo elegir dónde comer",
         paragraphs: [
-          "Este artículo será actualizado con fotografías propias, precios observados y lugares que realmente visitamos. No aceptaremos que la guía se convierta en una colección de publicidad pagada sin explicación.",
+          "Para elegir conviene mirar la distancia desde el barrio, el horario real, el tipo de comida y el presupuesto. Una recomendación útil debe explicar por qué vale la pena ir y cuándo fue comprobada, no limitarse a repetir publicidad.",
           "La intención es que una familia o un huésped pueda decidir dónde desayunar, dónde comprar y qué probar durante sus primeros días en la ciudad."
         ]
       }
@@ -660,7 +660,7 @@ export const englishArticles: Article[] = [
         heading: "Los Leones and Enrique Viviescas parks",
         paragraphs: [
           "Los Leones Park is a practical destination for a shorter walk, a rest or exercise. Enrique Viviescas Park, known by many residents as the Dog Park, is another nearby point for walking and experiencing neighborhood life.",
-          "Both can be reached from the property without driving. A final mapped guide will include measured distances, estimated time and the incline of each route."
+          "Both can be reached from the property without driving. Walking time depends on pace, route and incline; newcomers should begin with a shorter circuit and learn the return route in daylight."
         ]
       },
       {
@@ -718,7 +718,7 @@ export const englishArticles: Article[] = [
         heading: "La Concordia",
         paragraphs: [
           "La Concordia is a traditional market near Calle 50 and Carrera 20. Current listings show early opening and afternoon closing, with the earliest activity from Wednesday through Saturday.",
-          "Our expanded guide will add the products we prefer to buy there, parking information and original photographs. This will keep it from becoming a generic timetable copied from a directory."
+          "Opening times and parking conditions vary during the week, so it is worth confirming them before a special trip. Visiting in person also makes it easier to compare products and prices with the city’s other markets."
         ]
       },
       {
@@ -776,7 +776,7 @@ export const englishArticles: Article[] = [
         heading: "Cabecera: restaurants and cafés near home",
         paragraphs: [
           "Cabecera brings together restaurants, cafés and bakeries across several price points. From Altos de Cabecera, residents can walk toward many of these areas instead of driving for every meal.",
-          "Rather than publish a static list that quickly becomes outdated, we will maintain simple routes: morning coffee, a Santander lunch, a family meal and evening options. Every recommendation will show when it was last checked."
+          "A useful way to explore is by purpose: morning coffee, a Santander lunch, a family meal or an evening option. Check recent opening information before traveling, because restaurant hours and availability change."
         ]
       },
       {
