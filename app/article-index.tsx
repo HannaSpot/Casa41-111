@@ -5,7 +5,7 @@ export default function ArticleIndex({ lang, articles }: { lang: "es" | "en"; ar
   const isSpanish = lang === "es";
   return <main className="articleIndexPage" lang={lang}>
     <header className="articleNav shell">
-      <Link className="brand" href={isSpanish ? "/" : "/en"}>Casa 41·111</Link>
+      <Link className="brand" href={isSpanish ? "/" : "/en"}>Live Bucaramanga</Link>
       <nav aria-label={isSpanish ? "Navegación principal" : "Main navigation"}>
         <Link href={isSpanish ? "/" : "/en"}>{isSpanish ? "La casa" : "The house"}</Link>
         <Link className="langSwitch" href={isSpanish ? "/en/living-in-bucaramanga" : "/vida-en-bucaramanga"}>{isSpanish ? "EN" : "ES"}</Link>
@@ -23,6 +23,6 @@ export default function ArticleIndex({ lang, articles }: { lang: "es" | "en"; ar
       </article>)}
     </section>
     <section className="indexPropertyCta"><div className="shell"><p className="eyebrow">Casa 41·111</p><h2>{isSpanish ? "Una casa amplia para vivirla, renovarla o imaginar un nuevo proyecto." : "A spacious home to live in, renovate or shape into a new project."}</h2><Link className="button primary" href={isSpanish ? "/" : "/en"}>{isSpanish ? "Conocer la propiedad" : "View the property"}</Link></div></section>
-    <footer className="shell"><span>Casa 41·111</span><span>{isSpanish ? "Altos de Cabecera · Bucaramanga" : "Altos de Cabecera · Bucaramanga"}</span></footer>
+    <footer className="shell"><span>Live Bucaramanga · Casa 41·111</span><span>{isSpanish ? "Altos de Cabecera · Bucaramanga" : "Altos de Cabecera · Bucaramanga"}</span></footer>
   </main>;
 }
