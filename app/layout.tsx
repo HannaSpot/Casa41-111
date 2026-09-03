@@ -5,8 +5,8 @@ import { siteUrl } from "./site-config";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Casa en venta en Altos de Cabecera, Bucaramanga | Casa 41·111",
-    template: "%s | Casa 41·111",
+    default: "Casa en venta en Altos de Cabecera | Live Bucaramanga",
+    template: "%s | Live Bucaramanga",
   },
   description: "Casa familiar amplia en venta directa en Altos de Cabecera, Bucaramanga: 7 habitaciones, 6 baños y posibilidades de renovación.",
   alternates: {
@@ -14,17 +14,17 @@ export const metadata: Metadata = {
     languages: { "es-CO": "/", en: "/en", "x-default": "/" },
   },
   openGraph: {
-    title: "Casa 41·111 | Casa en venta en Altos de Cabecera",
+    title: "Casa en venta en Altos de Cabecera | Live Bucaramanga",
     description: "Una casa familiar amplia para vivirla, renovarla o imaginar un nuevo proyecto en Bucaramanga.",
     url: "/",
-    siteName: "Casa 41·111",
+    siteName: "Live Bucaramanga",
     locale: "es_CO",
     type: "website",
     images: [{ url: "/casa/fachada-atardecer.webp", width: 1600, height: 1067, alt: "Fachada de Casa 41-111 en Altos de Cabecera" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Casa 41·111 | Altos de Cabecera, Bucaramanga",
+    title: "Casa en venta en Bucaramanga | Live Bucaramanga",
     description: "Casa familiar amplia en venta directa por sus propietarios.",
     images: ["/casa/fachada-atardecer.webp"],
   },
