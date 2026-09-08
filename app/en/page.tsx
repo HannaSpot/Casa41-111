@@ -12,8 +12,8 @@ export const metadata: Metadata = {
   title: { absolute: "House for Sale in Bucaramanga, Colombia | Live Bucaramanga" },
   description: "Seven-bedroom family house for sale by its owners in Altos de Cabecera, Bucaramanga, with space to renovate for residential or compatible uses.",
   alternates: { canonical: "/en", languages: { "es-CO": "/", en: "/en", "x-default": "/" } },
-  openGraph: { title: "House for Sale in Bucaramanga | Live Bucaramanga", description: "A spacious family home in Altos de Cabecera, offered directly by its owners.", url: "/en", siteName: "Live Bucaramanga", locale: "en_US", type: "website", images: [{ url: "/casa/fachada-atardecer.webp", width: 1448, height: 1086, alt: "Casa 41-111 in Altos de Cabecera at sunset" }] },
-  twitter: { card: "summary_large_image", title: "House for Sale in Bucaramanga | Live Bucaramanga", description: "A spacious family home in Altos de Cabecera, offered directly by its owners.", images: ["/casa/fachada-atardecer.webp"] }
+  openGraph: { title: "House for Sale in Bucaramanga | Live Bucaramanga", description: "A spacious family home in Altos de Cabecera, offered directly by its owners.", url: "/en", siteName: "Live Bucaramanga", locale: "en_US", type: "website", images: [{ url: "/casa/compartir-fachada.jpg", width: 1200, height: 630, alt: "Casa 41-111 in Altos de Cabecera at sunset", type: "image/jpeg" }] },
+  twitter: { card: "summary_large_image", title: "House for Sale in Bucaramanga | Live Bucaramanga", description: "A spacious family home in Altos de Cabecera, offered directly by its owners.", images: ["/casa/compartir-fachada.jpg"] }
 };
 
 const facts = [
@@ -22,7 +22,7 @@ const facts = [
 ];
 const propertySpecs = [
   ["levels", "5", "levels"], ["bed", "7", "bedrooms"],
-  ["bath", "6", "bathrooms"], ["area", "540 m²", "built area"],
+  ["bath", "5", "bathrooms"], ["area", "540 m²", "built area"],
 ] as const;
 
 function SpecIcon({name}:{name:typeof propertySpecs[number][0]}) {
@@ -64,5 +64,5 @@ export default function EnglishHome() { return <main lang="en">
   <section className="contactSection" id="contact"><div className="contact shell"><p className="eyebrow">Direct sale</p><h2>Can you imagine yourself here?</h2><p>Tell us what you see in this house and speak directly with the owners.</p><ContactForm lang="en"/></div></section>
   <footer className="shell"><span>Live Bucaramanga · Casa 41·111</span><span>For sale directly by its owners · Bucaramanga</span></footer>
   <WhatsAppLink className="whatsappFloat" href="https://wa.me/573126084753?text=Hello%2C%20I%20would%20like%20information%20about%20Casa%2041-111" location="floating" lang="en" ariaLabel="Write on WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 11.7a8.5 8.5 0 0 1-12.6 7.4L3 20.5l1.4-4.7a8.5 8.5 0 1 1 16.1-4.1Z"/><path d="M8.1 7.5c.2-.5.5-.5.8-.5h.5c.2 0 .4.1.5.4l.7 1.7c.1.3 0 .5-.2.7l-.6.7c-.2.2-.1.4 0 .6.7 1.3 1.8 2.4 3.2 3 .2.1.4.1.6-.1l.8-1c.2-.2.4-.3.7-.2l1.8.8c.3.1.4.3.4.5 0 .3-.2 1.5-.8 2-.5.5-1.4.8-2.3.6-1.1-.2-2.6-.8-4.4-2.4-2.1-1.8-3.4-4.1-3.6-5.3-.2-.7.1-1.2.4-1.5.3-.3.6-.5.7-.5"/></svg><span>WhatsApp</span></WhatsAppLink>
-  <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify({"@context":"https://schema.org","@type":"SingleFamilyResidence","@id":`${siteUrl}/#property`,url:`${siteUrl}/en/`,name:"Casa 41·111",description:"A spacious family home for sale in Altos de Cabecera, Bucaramanga.",image:[`${siteUrl}/casa/fachada-atardecer.webp`,`${siteUrl}/casa/sala-principal.webp`,`${siteUrl}/casa/patio-luces.webp`],numberOfBedrooms:7,numberOfBathroomsTotal:6,floorSize:{"@type":"QuantitativeValue",value:540,unitCode:"MTK"},address:{"@type":"PostalAddress",streetAddress:"Carrera 40 # 41-111",addressLocality:"Bucaramanga",addressRegion:"Santander",addressCountry:"CO"},offers:{"@type":"Offer",url:`${siteUrl}/en/`,price:1800000000,priceCurrency:"COP",availability:"https://schema.org/InStock",seller:{"@type":"Person",name:"Casa 41·111 owning family"}}})}}/>
+  <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify({"@context":"https://schema.org","@type":"SingleFamilyResidence","@id":`${siteUrl}/#property`,url:`${siteUrl}/en/`,name:"Casa 41·111",description:"A spacious family home for sale in Altos de Cabecera, Bucaramanga.",image:[`${siteUrl}/casa/fachada-atardecer.webp`,`${siteUrl}/casa/sala-principal.webp`,`${siteUrl}/casa/patio-luces.webp`],numberOfBedrooms:7,numberOfBathroomsTotal:5,floorSize:{"@type":"QuantitativeValue",value:540,unitCode:"MTK"},address:{"@type":"PostalAddress",streetAddress:"Carrera 40 # 41-111",addressLocality:"Bucaramanga",addressRegion:"Santander",addressCountry:"CO"},offers:{"@type":"Offer",url:`${siteUrl}/en/`,price:1800000000,priceCurrency:"COP",availability:"https://schema.org/InStock",seller:{"@type":"Person",name:"Casa 41·111 owning family"}}})}}/>
   </main> }
