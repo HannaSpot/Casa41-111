@@ -6,17 +6,17 @@ import { siteUrl } from "./site-config";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Casa en venta en Altos de Cabecera | Live Bucaramanga",
+    default: "Casa en venta en Cabecera, Bucaramanga | 540 m²",
     template: "%s | Live Bucaramanga",
   },
-  description: "Casa familiar amplia en venta directa en Altos de Cabecera, Bucaramanga: 7 habitaciones, 5 baños y posibilidades de renovación.",
+  description: "Casa en venta directa en Altos de Cabecera, Bucaramanga: 540 m² construidos, 7 habitaciones, 5 baños, patios, terraza y local arrendado.",
   alternates: {
     canonical: "/",
     languages: { "es-CO": "/", en: "/en", "x-default": "/" },
   },
   openGraph: {
-    title: "Casa en venta en Altos de Cabecera | Live Bucaramanga",
-    description: "Una casa familiar amplia para vivirla, renovarla o imaginar un nuevo proyecto en Bucaramanga.",
+    title: "Casa en venta en Cabecera, Bucaramanga | 540 m²",
+    description: "Venta directa: 7 habitaciones, 5 baños, patios, terraza y local arrendado en Altos de Cabecera.",
     url: "/",
     siteName: "Live Bucaramanga",
     locale: "es_CO",
@@ -25,8 +25,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Casa en venta en Bucaramanga | Live Bucaramanga",
-    description: "Casa familiar amplia en venta directa por sus propietarios.",
+    title: "Casa en venta en Cabecera, Bucaramanga | 540 m²",
+    description: "Casa amplia en venta directa por sus propietarios en Altos de Cabecera.",
     images: ["/casa/compartir-fachada.jpg"],
   },
   robots: { index: true, follow: true },

@@ -70,6 +70,7 @@ body{font-size:17px}
 .summaryGrid{grid-template-columns:minmax(230px,.9fr) minmax(0,2.5fr) auto}
 .summaryGrid span{font-size:12px}
 .summaryPrice strong{font-size:31px;line-height:1.05}
+.summaryPrice small{display:block;margin-top:10px;color:#5f554d;font-size:13px;line-height:1.35;letter-spacing:0;text-transform:none}
 .propertySpec{padding:27px 15px}
 .propertySpec svg{width:48px;height:48px;margin-bottom:11px;stroke-width:1.35}
 .propertySpec strong{font-size:27px}
@@ -108,6 +109,19 @@ footer{font-size:14px}
 .summaryPrice>span{margin-bottom:12px}
 .gallerySection .eyebrow,.contact .eyebrow{color:#efa78f}
 @media(max-width:600px){.eyebrow,.summaryPrice>span,.interestForm legend{font-size:15px;letter-spacing:.18em}}
+
+/* Buyers living outside Colombia */
+.internationalSection{padding:120px 0;background:#f3e7d2}
+.international{display:grid;grid-template-columns:minmax(0,.92fr) minmax(0,1.08fr);gap:90px;align-items:start}
+.international h2{font-family:Georgia,"Times New Roman",serif;font-weight:400;font-size:clamp(48px,5.5vw,74px);line-height:1.03;letter-spacing:-.035em;margin:0;max-width:580px}
+.internationalCopy>p{font-size:20px;line-height:1.72;margin:0 0 24px;max-width:670px}
+.internationalCopy ul{list-style:none;padding:20px 0;margin:0 0 30px;border-block:1px solid var(--line)}
+.internationalCopy li{padding:9px 0;font-size:19px}
+.internationalCopy li::before{content:"✓";margin-right:12px;color:var(--terracotta);font-weight:700}
+.internationalCopy .button{margin-bottom:22px}
+.internationalCopy small{display:block;color:#6b625a;font-size:14px;line-height:1.6;max-width:650px}
+@media(max-width:900px){.internationalSection{padding:88px 0}.international{grid-template-columns:1fr;gap:42px}}
+@media(max-width:600px){.internationalSection{padding:74px 0}.international h2{font-size:43px}.internationalCopy>p{font-size:18px}.internationalCopy li{font-size:18px}.internationalCopy .button{width:100%;text-align:center}}
 
 /* Family story and memories */
 .addressMeaning{padding:110px 0;background:var(--ink);color:var(--paper)}

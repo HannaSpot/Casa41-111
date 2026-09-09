@@ -4,8 +4,8 @@ import { FormEvent, useState } from "react";
 import { trackGenerateLead } from "./analytics-events";
 
 const options = {
-  es: ["VIVIR", "RENOVAR", "TU OFICINA", "ALOJAMIENTO BOUTIQUE", "INVERSIÓN", "OTROS"],
-  en: ["LIVE HERE", "RENOVATE", "YOUR OFFICE", "BOUTIQUE STAY", "INVESTMENT", "OTHER"],
+  es: ["VIVIR", "RENOVAR", "TU OFICINA", "ALOJAMIENTO BOUTIQUE", "INVERSIÓN", "DESDE EL EXTERIOR", "OTROS"],
+  en: ["LIVE HERE", "RENOVATE", "YOUR OFFICE", "BOUTIQUE STAY", "INVESTMENT", "BUY FROM ABROAD", "OTHER"],
 };
 
 export default function ContactForm({ lang = "es" }: { lang?: "es" | "en" }) {
