@@ -79,10 +79,11 @@ export const spanishArticles: Article[] = [
     slug: "vivir-en-altos-de-cabecera",
     alternateSlug: "living-in-altos-de-cabecera",
     category: "El barrio",
-    title: "Vivir en Altos de Cabecera: ubicación, movilidad y vida cotidiana",
-    description: "Cómo es vivir en Altos de Cabecera, Bucaramanga: conexión caminando con Cabecera, cercanía a la UNAB, parques, servicios y rutas de movilidad.",
-    intro: "Altos de Cabecera permite estar cerca de la actividad de Cabecera y, al mismo tiempo, conservar una vida más residencial. Desde Casa 41·111 se puede caminar hacia universidades, parques, comercios y rutas de ejercicio.",
+    title: "Vivir en Cabecera del Llano y Altos de Cabecera: guía local",
+    description: "Cómo es vivir en Cabecera del Llano y Altos de Cabecera: recorridos a pie, cercanía a la UNAB, parques, servicios y movilidad cotidiana.",
+    intro: "Cabecera del Llano concentra buena parte del comercio y los servicios del sector. Altos de Cabecera permite tenerlos cerca y conservar un entorno principalmente residencial. Esta guía explica la diferencia desde la experiencia cotidiana de quienes vivimos aquí.",
     readingTime: "8 minutos",
+    updatedDate: "2026-09-09",
     heroImage: "/casa/mapa-senderos-altos-cabecera.webp",
     heroAlt: "Mapa con varias rutas para caminar, parques y senderos cerca de Casa 41-111",
     sections: [
@@ -104,7 +105,7 @@ export const spanishArticles: Article[] = [
         heading: "La UNAB a pocos minutos",
         paragraphs: [
           "El Campus El Jardín de la Universidad Autónoma de Bucaramanga está en Altos de Cabecera. Desde la casa, el recorrido habitual puede hacerse caminando en pocos minutos. Esta proximidad interesa a familias con hijos universitarios, estudiantes de posgrado, docentes y profesionales vinculados a la institución.",
-          "La cercanía universitaria también puede ser útil para un proyecto de alojamiento de pocas habitaciones, porque ofrece a los huéspedes un punto de referencia claro y servicios alrededor del campus."
+          "También es una referencia práctica para docentes, profesionales vinculados a la universidad y compradores que quieran comprobar qué servicios tienen alrededor antes de elegir vivienda."
         ]
       },
       {
@@ -115,9 +116,9 @@ export const spanishArticles: Article[] = [
         ]
       },
       {
-        heading: "Una ubicación útil para distintos proyectos",
+        heading: "Una ubicación útil para la vida diaria",
         paragraphs: [
-          "Para una familia, la ubicación simplifica actividades diarias. Para un profesional, permite combinar vivienda y trabajo. Para quien evalúa un alojamiento boutique, ofrece a los huéspedes acceso caminando a parques, universidad, restaurantes y comercio.",
+          "Para una familia, la ubicación puede simplificar actividades diarias. Para un profesional independiente, la distribución de una casa amplia puede permitir separar vivienda y trabajo, siempre que la actividad sea compatible con la normativa aplicable.",
           "La casa no cuenta actualmente con parqueaderos privados porque el espacio frontal fue convertido en un local comercial que hoy está arrendado. Frente a la propiedad hay espacio para estacionar dos vehículos de tamaño estándar o uno grande sin obstruir la visibilidad del local; ese espacio no debe presentarse como estacionamiento privado o exclusivo."
         ]
       }
@@ -294,16 +295,17 @@ export const spanishArticles: Article[] = [
     alternateSlug: "buying-and-renovating-a-house-in-bucaramanga",
     category: "Comprar y renovar",
     title: "Comprar y renovar una casa amplia en Bucaramanga: qué revisar",
-    description: "Aspectos que conviene revisar al comprar y renovar una casa amplia en Bucaramanga para vivienda, oficina o alojamiento boutique.",
-    intro: "Una casa amplia y vivida ofrece posibilidades que no aparecen en una propiedad nueva, pero exige mirar más allá de las fotografías. Distribución, estructura, instalaciones, normativa y presupuesto deben estudiarse antes de decidir.",
+    description: "Qué revisar antes de comprar una casa para remodelar en Bucaramanga: distribución, inspección técnica, instalaciones, permisos y presupuesto.",
+    intro: "Comprar una casa para remodelar permite decidir los acabados y adaptar los espacios, pero la decisión debe partir de una revisión técnica y documental. Esta guía reúne los puntos que conviene estudiar antes de calcular la obra.",
     readingTime: "10 minutos",
+    updatedDate: "2026-09-09",
     heroImage: "/casa/entrada-luces-calidas.webp",
     heroAlt: "Entrada y terraza de Casa 41-111 en Bucaramanga",
     sections: [
       {
         heading: "Comenzar por el uso que se quiere dar",
         paragraphs: [
-          "No existe una única remodelación correcta. Una familia puede priorizar habitaciones, cocina, accesibilidad y zonas comunes. Un profesional puede necesitar oficina independiente. Un proyecto de alojamiento boutique requiere pensar en circulación, privacidad, baños, operación, lavandería y atención a huéspedes.",
+          "No existe una única remodelación correcta. Una familia puede priorizar habitaciones, cocina, accesibilidad y zonas comunes. Un profesional puede necesitar una oficina independiente y una circulación que mantenga la privacidad de la vivienda.",
           "Definir el uso antes de diseñar evita gastar en cambios que después deben deshacerse."
         ]
       },
@@ -315,17 +317,17 @@ export const spanishArticles: Article[] = [
         ]
       },
       {
-        heading: "Espacios desaprovechados y nuevas habitaciones",
+        heading: "Distinguir actualización de intervención estructural",
         paragraphs: [
-          "Casa 41·111 tiene siete habitaciones en su configuración actual y áreas que hoy no aprovechan todo su potencial. Un arquitecto podría estudiar cómo redistribuirlas para crear habitaciones adicionales, suites, baños o zonas de apoyo.",
-          "No es responsable prometer un número exacto sin planos, revisión estructural y validación normativa. El valor está en que existe espacio para explorar alternativas, no en presentar una ampliación como si ya estuviera aprobada."
+          "Pintura, iluminación y algunos acabados no plantean las mismas exigencias que demoler muros, modificar redes, redistribuir áreas o ampliar la construcción. Antes de diseñar, un profesional debe identificar qué elementos pueden cambiarse y cuáles hacen parte de la estructura.",
+          "Casa 41·111 tiene siete habitaciones y una distribución desarrollada en varios niveles. Esa amplitud permite estudiar alternativas, pero no debe prometerse una nueva distribución sin planos, revisión técnica y validación normativa."
         ]
       },
       {
-        heading: "Vivienda, oficina o alojamiento boutique",
+        heading: "Revisar permisos antes de comenzar",
         paragraphs: [
-          "La distribución por niveles permite pensar en áreas con distintos grados de independencia. Eso puede servir para una familia de varias generaciones, una vivienda con oficina o un hospedaje de pocas habitaciones con espacios comunes.",
-          "Los usos turísticos y comerciales deben verificarse ante las autoridades y cumplir los registros, condiciones de seguridad y obligaciones tributarias aplicables. Una revisión previa del uso del suelo es indispensable antes de calcular ingresos."
+          "Las obras que cambian el diseño arquitectónico o estructural, aumentan el área construida o modifican el uso pueden requerir una modalidad específica de licencia. El alcance debe consultarse con un arquitecto y la curaduría urbana antes de iniciar trabajos.",
+          "También conviene comparar la distribución actual con los planos y documentos disponibles. Si existen diferencias, deben estudiarse antes de firmar una promesa de compraventa."
         ]
       },
       {
@@ -336,14 +338,18 @@ export const spanishArticles: Article[] = [
         ]
       },
       {
-        heading: "Construir una proyección financiera prudente",
+        heading: "Preparar un presupuesto por etapas",
         paragraphs: [
-          "Para evaluar un alojamiento no basta con multiplicar habitaciones por una tarifa. Deben considerarse obra, mobiliario, licencias, plataformas, personal, limpieza, servicios, mantenimiento, impuestos y una ocupación realista.",
-          "Un buen estudio debe presentar escenarios conservador, medio y alto. La ubicación, la cercanía a la UNAB, Cabecera y los senderos son ventajas, pero no sustituyen una evaluación técnica y financiera."
+          "No existe un costo por metro cuadrado que sirva para todas las casas. El valor depende del estado de las redes, cubiertas, baños, cocina, estructura, materiales y alcance de la intervención. Por eso es preferible solicitar presupuestos después de la inspección y reservar un margen para hallazgos no visibles.",
+          "También puede estudiarse una ejecución por etapas: primero reparaciones necesarias e instalaciones, luego espacios prioritarios y finalmente acabados. La ubicación y el tamaño importan, pero no sustituyen una evaluación técnica y financiera independiente."
         ]
       }
     ],
-    sources: []
+    sources: [
+      { label: "Ministerio de Vivienda — Modalidades de licencia de construcción", url: "https://www.minvivienda.gov.co/node/1361" },
+      { label: "Ministerio de Vivienda — Licencia en modalidad de modificación", url: "https://www.minvivienda.gov.co/node/1365" },
+      { label: "Superintendencia de Notariado y Registro — Trámites y servicios", url: "https://www.supernotariado.gov.co/atencion-servicios-ciudadania/tramites-y-servicios/" }
+    ]
   },
   {
     lang: "es",
@@ -584,6 +590,60 @@ export const spanishArticles: Article[] = [
       { label: "Cancillería de Colombia — Escrituras públicas y poderes en el exterior", url: "https://www.cancilleria.gov.co/atencion-y-servicio-al-ciudadano/tramites-y-servicios/tramites-en-el-exterior/escrituras-publicas" },
       { label: "Superintendencia de Notariado y Registro — Trámites y servicios", url: "https://www.supernotariado.gov.co/atencion-servicios-ciudadania/tramites-y-servicios/" }
     ]
+  },
+  {
+    lang: "es",
+    slug: "casas-grandes-en-venta-en-bucaramanga",
+    alternateSlug: "large-houses-for-sale-in-bucaramanga",
+    category: "Comprar en Bucaramanga",
+    title: "Casas grandes en venta en Bucaramanga: qué revisar antes de comprar",
+    description: "Guía para buscar una casa grande en Bucaramanga: distribución, niveles, instalaciones, documentos, accesibilidad y espacios independientes.",
+    intro: "Buscar una casa grande exige mirar más allá del número total de metros cuadrados. La forma en que se distribuyen, el estado de las instalaciones, la accesibilidad y la documentación determinan si el espacio realmente responde a las necesidades del comprador.",
+    readingTime: "7 minutos",
+    updatedDate: "2026-09-09",
+    heroImage: "/casa/sala-principal.webp",
+    heroAlt: "Sala amplia de una casa familiar en Altos de Cabecera, Bucaramanga",
+    sections: [
+      {
+        heading: "Definir cuánto espacio se necesita",
+        paragraphs: [
+          "Una familia numerosa puede necesitar habitaciones, zonas de estudio y áreas comunes separadas. Un profesional que trabaja desde casa puede valorar una oficina con acceso independiente. Antes de comparar propiedades conviene escribir qué espacios son indispensables y cuáles podrían adaptarse después.",
+          "El área construida por sí sola no responde esas preguntas. Dos casas con una superficie similar pueden sentirse muy distintas según el tamaño de las habitaciones, la cantidad de pasillos, la entrada de luz y la relación entre los niveles."
+        ]
+      },
+      {
+        heading: "Revisar niveles y accesibilidad",
+        paragraphs: [
+          "En una casa de varios niveles, las escaleras forman parte de la vida diaria. El comprador debe pensar quién utilizará cada piso, si hay adultos mayores o niños y si la distribución permite concentrar las actividades principales en los niveles más cómodos.",
+          "Una visita debe incluir el recorrido completo, no solo las habitaciones más atractivas. También conviene observar descansos, barandas, pendientes, iluminación y posibilidades reales de adaptación."
+        ]
+      },
+      {
+        heading: "Solicitar una revisión técnica y documental",
+        paragraphs: [
+          "En una propiedad usada deben examinarse cubiertas, humedades, redes eléctricas e hidráulicas, ventilación y elementos estructurales visibles. Esa observación inicial no reemplaza la inspección de un arquitecto o ingeniero independiente.",
+          "También es necesario comparar la realidad física con la escritura, el certificado de tradición y libertad, la información catastral y los planos o licencias disponibles. Cualquier diferencia debe entenderse antes de comprometer dinero."
+        ]
+      },
+      {
+        heading: "Entender los espacios independientes",
+        paragraphs: [
+          "Algunas casas incluyen una oficina, local o zona que puede funcionar con cierta independencia. Si el espacio está arrendado, el comprador debe revisar el contrato, el canon, la vigencia y las condiciones de continuidad o terminación.",
+          "Tener un área independiente puede ser útil, pero no autoriza por sí solo cualquier actividad. El uso permitido debe confirmarse según la normativa aplicable al inmueble."
+        ]
+      },
+      {
+        heading: "Una casa amplia disponible en Altos de Cabecera",
+        paragraphs: [
+          "Casa 41·111 tiene aproximadamente 540 m² construidos, siete habitaciones, cinco baños, terraza, patios interiores y un local independiente actualmente arrendado. Su distribución se desarrolla en cinco niveles y no cuenta con garaje privado interior.",
+          "La propiedad se ofrece directamente por la familia propietaria por COP $1.800 millones. Las fotografías, características completas y la opción de solicitar una visita presencial o por videollamada están disponibles en Live Bucaramanga."
+        ]
+      }
+    ],
+    sources: [
+      { label: "Superintendencia de Notariado y Registro — Trámites y servicios", url: "https://www.supernotariado.gov.co/atencion-servicios-ciudadania/tramites-y-servicios/" },
+      { label: "Ministerio de Vivienda — Modalidades de licencia de construcción", url: "https://www.minvivienda.gov.co/node/1361" }
+    ]
   }
 ];
 
@@ -646,10 +706,11 @@ export const englishArticles: Article[] = [
     slug: "living-in-altos-de-cabecera",
     alternateSlug: "vivir-en-altos-de-cabecera",
     category: "The neighborhood",
-    title: "Living in Altos de Cabecera: Location, Walkability and Daily Life",
-    description: "A practical guide to Altos de Cabecera in Bucaramanga, including walkability, UNAB university, parks, services and connections to Cabecera.",
-    intro: "Altos de Cabecera sits close to the restaurants and services of Cabecera while retaining a more residential daily rhythm. From Casa 41·111, residents can walk to a university campus, parks, local businesses and exercise routes.",
+    title: "Living in Cabecera del Llano and Altos de Cabecera: A Local Guide",
+    description: "A practical guide to Cabecera del Llano and Altos de Cabecera, including walkability, UNAB university, parks, services and everyday mobility.",
+    intro: "Cabecera del Llano brings together many of the area’s shops and services. Altos de Cabecera keeps them nearby while retaining a mainly residential setting. This guide explains the difference from the perspective of people who live here.",
     readingTime: "8 min read",
+    updatedDate: "2026-09-09",
     heroImage: "/casa/mapa-senderos-altos-cabecera.webp",
     heroAlt: "Map showing several walking routes, parks and trails near Casa 41-111",
     sections: [
@@ -671,7 +732,7 @@ export const englishArticles: Article[] = [
         heading: "UNAB university nearby",
         paragraphs: [
           "The El Jardín campus of Universidad Autónoma de Bucaramanga is located in Altos de Cabecera. The usual route from the house can be walked in a few minutes. This is relevant to families with university-age children, postgraduate students, faculty and university staff.",
-          "For a small hospitality project, the campus also provides guests with a recognizable landmark and nearby services."
+          "It is also a practical reference point for faculty, university staff and buyers who want to verify which services are nearby before choosing a home."
         ]
       },
       {
@@ -682,9 +743,9 @@ export const englishArticles: Article[] = [
         ]
       },
       {
-        heading: "Useful for several ways of living",
+        heading: "A practical location for daily life",
         paragraphs: [
-          "For a family, the location can simplify routines. For a professional, it may support a combined home and office. For someone considering a boutique stay, guests could walk to parks, the university, restaurants and shops.",
+          "For a family, the location can simplify daily routines. For an independent professional, a large house may make it possible to separate home and work, provided the activity complies with applicable rules.",
           "The house does not currently have private parking because the former front parking area was converted into a rented commercial unit. There is exterior space in front for two standard vehicles or one larger vehicle without blocking the shop’s visibility, but it should not be represented as private or exclusive parking."
         ]
       }
@@ -861,16 +922,17 @@ export const englishArticles: Article[] = [
     alternateSlug: "comprar-y-renovar-una-casa-en-bucaramanga",
     category: "Buying and renovating",
     title: "Buying and Renovating a Large House in Bucaramanga: What to Review",
-    description: "A practical guide to assessing a large house in Bucaramanga for family living, a home office or a boutique accommodation project.",
-    intro: "A large, lived-in house offers possibilities that a new apartment may not, but buyers need to look beyond the photographs. Layout, structure, utilities, local rules and renovation costs should be reviewed before making a decision.",
+    description: "What to review before buying a house to renovate in Bucaramanga: layout, technical inspection, utilities, permits and budgeting.",
+    intro: "Buying a house to renovate allows the owner to choose finishes and adapt the layout, but the decision should begin with technical and documentary review. This guide covers the points to examine before estimating the work.",
     readingTime: "10 min read",
+    updatedDate: "2026-09-09",
     heroImage: "/casa/entrada-luces-calidas.webp",
     heroAlt: "Entrance and terrace at Casa 41-111 in Bucaramanga",
     sections: [
       {
         heading: "Begin with the intended use",
         paragraphs: [
-          "There is no single correct renovation. A family may prioritize bedrooms, kitchen, accessibility and shared spaces. A professional may need an independent office. A boutique stay requires circulation, privacy, bathrooms, operations, laundry and guest service.",
+          "There is no single correct renovation. A family may prioritize bedrooms, kitchen, accessibility and shared spaces. A professional may need an independent office and circulation that protects the privacy of the home.",
           "Defining the use before design begins reduces the risk of paying for work that later needs to be undone."
         ]
       },
@@ -882,17 +944,17 @@ export const englishArticles: Article[] = [
         ]
       },
       {
-        heading: "Underused areas and additional rooms",
+        heading: "Separate updating from structural work",
         paragraphs: [
-          "Casa 41·111 currently has seven bedrooms and areas that do not yet use their full potential. An architect could explore additional rooms, suites, bathrooms or operational spaces through a new internal layout.",
-          "No exact room count should be promised without drawings, structural review and planning confirmation. The opportunity lies in having space to study, not in treating an unapproved expansion as certain."
+          "Painting, lighting and some finishes do not raise the same questions as removing walls, changing utilities, redistributing rooms or expanding the building. A qualified professional should identify what can change and what forms part of the structure before design begins.",
+          "Casa 41·111 has seven bedrooms and a multilevel layout. Its size allows alternatives to be studied, but a new layout should not be promised without drawings, technical review and confirmation of applicable rules."
         ]
       },
       {
-        heading: "Home, office or boutique accommodation",
+        heading: "Check permits before work begins",
         paragraphs: [
-          "The multilevel layout may support areas with different degrees of independence. This can suit a multigenerational family, a home with professional workspace or a small guest accommodation concept.",
-          "Tourism and commercial uses must be checked with the relevant authorities and may require registrations, safety conditions and tax compliance. Land-use review should come before financial projections."
+          "Work that changes architectural or structural design, increases the built area or changes the authorized use may require a specific type of construction permit. The scope should be reviewed with an architect and the local planning authority before work begins.",
+          "The current layout should also be compared with available plans and property documents. Any difference should be understood before a purchase agreement is signed."
         ]
       },
       {
@@ -903,14 +965,18 @@ export const englishArticles: Article[] = [
         ]
       },
       {
-        heading: "Build a cautious financial model",
+        heading: "Prepare a phased budget",
         paragraphs: [
-          "A hospitality projection cannot simply multiply bedrooms by a nightly rate. Renovation, furniture, permits, platforms, staff, cleaning, utilities, maintenance, taxes and realistic occupancy all need to be included.",
-          "A useful model should show conservative, middle and stronger scenarios. Location near UNAB, Cabecera and walking routes is an advantage, but it does not replace technical and financial due diligence."
+          "There is no single cost per square meter that applies to every house. Cost depends on the condition of utilities, roofs, bathrooms, kitchen, structure, materials and the scope of work. Estimates should follow the inspection and include an allowance for concealed conditions.",
+          "Work can also be planned in stages: necessary repairs and utilities first, priority rooms next and finishes afterward. Location and size matter, but they do not replace independent technical and financial review."
         ]
       }
     ],
-    sources: []
+    sources: [
+      { label: "Colombian Ministry of Housing — Types of construction permits", url: "https://www.minvivienda.gov.co/node/1361" },
+      { label: "Colombian Ministry of Housing — Modification permits", url: "https://www.minvivienda.gov.co/node/1365" },
+      { label: "Superintendence of Notaries and Registration — Services", url: "https://www.supernotariado.gov.co/atencion-servicios-ciudadania/tramites-y-servicios/" }
+    ]
   },
   {
     lang: "en",
@@ -1150,6 +1216,60 @@ export const englishArticles: Article[] = [
       { label: "Banco de la República — International investment overview", url: "https://www.banrep.gov.co/es/politica-monetaria-cambiaria/regulacion-operaciones-cambiarias/inversiones-internacionales-generalidades" },
       { label: "Colombian Ministry of Foreign Affairs — Public deeds and powers of attorney abroad", url: "https://www.cancilleria.gov.co/atencion-y-servicio-al-ciudadano/tramites-y-servicios/tramites-en-el-exterior/escrituras-publicas" },
       { label: "Superintendence of Notaries and Registration — Services", url: "https://www.supernotariado.gov.co/atencion-servicios-ciudadania/tramites-y-servicios/" }
+    ]
+  },
+  {
+    lang: "en",
+    slug: "large-houses-for-sale-in-bucaramanga",
+    alternateSlug: "casas-grandes-en-venta-en-bucaramanga",
+    category: "Buying in Bucaramanga",
+    title: "Large Houses for Sale in Bucaramanga: What to Review Before Buying",
+    description: "A guide to finding a large house in Bucaramanga: layout, levels, utilities, documents, accessibility and independent spaces.",
+    intro: "Searching for a large house requires more than comparing total floor area. Layout, utilities, accessibility and property documents determine whether that space actually fits the buyer’s needs.",
+    readingTime: "7 min read",
+    updatedDate: "2026-09-09",
+    heroImage: "/casa/sala-principal.webp",
+    heroAlt: "Spacious living room in a family house in Altos de Cabecera, Bucaramanga",
+    sections: [
+      {
+        heading: "Define how much space is needed",
+        paragraphs: [
+          "A large family may need bedrooms, study areas and separate shared spaces. A professional working from home may value an office with an independent entrance. Before comparing properties, buyers should identify which rooms are essential and which could be adapted later.",
+          "Built area alone cannot answer those questions. Two houses with a similar floor area can feel very different depending on bedroom sizes, corridors, daylight and how the floors connect."
+        ]
+      },
+      {
+        heading: "Review levels and accessibility",
+        paragraphs: [
+          "In a multilevel house, stairs are part of everyday life. Buyers should consider who will use each floor, whether children or older adults will live there and whether essential activities can be concentrated on the most convenient levels.",
+          "A viewing should cover the entire property, not only its most attractive rooms. Landings, handrails, slopes, lighting and realistic adaptation options also deserve attention."
+        ]
+      },
+      {
+        heading: "Request technical and documentary review",
+        paragraphs: [
+          "A used property should be checked for roof condition, moisture, electrical and water systems, ventilation and visible structural concerns. This initial observation does not replace an inspection by an independent architect or engineer.",
+          "The physical property should also be compared with the deed, title certificate, cadastral information and available plans or permits. Any difference should be understood before funds are committed."
+        ]
+      },
+      {
+        heading: "Understand independent spaces",
+        paragraphs: [
+          "Some houses include an office, shop or other area with a degree of independence. If that space is rented, buyers should review the lease, rent, term and conditions for continuation or termination.",
+          "An independent area can be useful, but it does not automatically authorize every activity. Permitted use should be confirmed under the rules that apply to the property."
+        ]
+      },
+      {
+        heading: "A large house available in Altos de Cabecera",
+        paragraphs: [
+          "Casa 41·111 has approximately 540 m² of built area, seven bedrooms, five bathrooms, a terrace, internal patios and an independent commercial unit that is currently rented. The house is arranged over five levels and does not have a private internal garage.",
+          "The property is offered directly by the owning family for COP $1.8 billion. Photographs, full details and the option to request an in-person or live video viewing are available through Live Bucaramanga."
+        ]
+      }
+    ],
+    sources: [
+      { label: "Superintendence of Notaries and Registration — Services", url: "https://www.supernotariado.gov.co/atencion-servicios-ciudadania/tramites-y-servicios/" },
+      { label: "Colombian Ministry of Housing — Types of construction permits", url: "https://www.minvivienda.gov.co/node/1361" }
     ]
   }
 ];
