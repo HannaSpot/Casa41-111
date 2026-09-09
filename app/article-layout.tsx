@@ -20,8 +20,8 @@ export default function ArticleLayout({ article }: { article: Article }) {
         headline: article.title,
         description: article.description,
         inLanguage: isSpanish ? "es-CO" : "en",
-        datePublished: "2026-09-01",
-        dateModified: "2026-09-03",
+        datePublished: article.updatedDate || "2026-09-01",
+        dateModified: article.updatedDate || "2026-09-03",
         author: { "@type": "Person", name: "Familia propietaria de Casa 41·111" },
         publisher: { "@type": "Organization", name: "Live Bucaramanga", url: siteUrl },
         mainEntityOfPage: `${siteUrl}${canonicalPath}`,
@@ -55,7 +55,7 @@ export default function ArticleLayout({ article }: { article: Article }) {
             <p className="eyebrow">{article.category}</p>
             <h1>{article.title}</h1>
             <p className="articleIntro">{article.intro}</p>
-            <div className="articleMeta"><span>{isSpanish ? "Actualizado el 1 de septiembre de 2026" : "Updated September 1, 2026"}</span><span>{article.readingTime}</span></div>
+            <div className="articleMeta"><span>{article.updatedDate === "2026-09-09" ? (isSpanish ? "Actualizado el 9 de septiembre de 2026" : "Updated September 9, 2026") : (isSpanish ? "Actualizado el 1 de septiembre de 2026" : "Updated September 1, 2026")}</span><span>{article.readingTime}</span></div>
           </div>
           {article.heroImage && <figure className="articleHeroImage"><img src={article.heroImage} alt={article.heroAlt || ""} loading="eager" fetchPriority="high" decoding="async"/></figure>}
         </div>

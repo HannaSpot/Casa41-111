@@ -13,6 +13,7 @@ export type Article = {
   description: string;
   intro: string;
   readingTime: string;
+  updatedDate?: string;
   heroImage?: string;
   heroAlt?: string;
   sections: ArticleSection[];
@@ -527,6 +528,62 @@ export const spanishArticles: Article[] = [
     sources: [
       { label: "Colombia Visas — Requisitos 2026", url: "https://colombiavisas.com/important-colombian-visa-requirement-updates-for-2026/" }
     ]
+  },
+  {
+    lang: "es",
+    slug: "comprar-propiedad-en-colombia-desde-el-exterior",
+    alternateSlug: "buying-property-in-colombia-from-abroad",
+    category: "Comprar desde el exterior",
+    title: "Comprar propiedad en Colombia desde el exterior: guía inicial",
+    description: "Guía para colombianos y extranjeros que desean comprar propiedad en Colombia desde otro país: revisión legal, poderes, pagos y registro.",
+    intro: "Comprar una propiedad en Colombia viviendo en otro país requiere coordinación jurídica, notarial y cambiaria. Esta guía explica el proceso general y las preguntas que conviene resolver antes de enviar dinero o firmar documentos.",
+    readingTime: "7 minutos",
+    updatedDate: "2026-09-09",
+    heroImage: "/casa/fachada-cielo-azul.webp",
+    heroAlt: "Casa en venta en Bucaramanga, Colombia, vista desde la calle",
+    sections: [
+      {
+        heading: "Primero: confirma quién compra y desde dónde llegan los fondos",
+        paragraphs: [
+          "Ser colombiano no significa necesariamente ser residente en Colombia para efectos cambiarios o tributarios. Antes de estructurar la operación conviene determinar si el comprador actúa como residente o no residente y desde qué país se transferirá el dinero.",
+          "Cuando un no residente adquiere un inmueble en Colombia, la operación puede tener obligaciones de registro como inversión internacional. El Banco de la República mantiene las instrucciones y formularios aplicables; el banco o intermediario cambiario debe recibir la información correcta desde el inicio."
+        ]
+      },
+      {
+        heading: "Revisa la propiedad antes de comprometerte",
+        paragraphs: [
+          "Una videollamada y las fotografías sirven para conocer la casa, pero no sustituyen la revisión documental. Un abogado independiente puede estudiar el certificado de tradición y libertad, la escritura, la situación tributaria, las limitaciones al dominio y cualquier condición relevante para la compraventa.",
+          "También es importante confirmar que las áreas, los usos posibles y las características anunciadas coincidan con los documentos y con lo que puede verificarse físicamente. Las ideas de remodelación o cambio de uso requieren sus propios estudios y permisos."
+        ]
+      },
+      {
+        heading: "Si no puedes viajar, pregunta por el poder adecuado",
+        paragraphs: [
+          "La Cancillería de Colombia ofrece trámites consulares para poderes, reconocimiento de firmas y autenticación de documentos. El tipo de poder y sus formalidades dependen del acto que se vaya a realizar, por lo que debe prepararlo o revisarlo un abogado o la notaría que intervendrá.",
+          "No entregues un poder más amplio de lo necesario. Debe identificar con precisión a la persona autorizada, la propiedad y las facultades otorgadas."
+        ]
+      },
+      {
+        heading: "Organiza el pago y conserva los soportes",
+        paragraphs: [
+          "No envíes fondos a cuentas de terceros sin que la estructura de pago haya sido revisada. El precio, la moneda, las fechas y las condiciones deben quedar documentados en la promesa de compraventa y en los demás documentos de la operación.",
+          "Conserva comprobantes bancarios, declaraciones de cambio y comunicaciones relacionadas con el origen y destino de los fondos. Un intermediario del mercado cambiario puede indicar cómo canalizar la operación según la condición del comprador."
+        ]
+      },
+      {
+        heading: "Cómo conocer Casa 41·111 desde otro país",
+        paragraphs: [
+          "Casa 41·111 está en Altos de Cabecera, Bucaramanga, y se ofrece directamente por la familia propietaria. Podemos realizar un recorrido privado por videollamada, responder preguntas sobre la distribución y coordinar una visita con una persona de confianza del comprador.",
+          "La información de esta página es general y no reemplaza asesoría jurídica, tributaria, notarial o cambiaria. Cada comprador debe recibir orientación independiente según su residencia, nacionalidad y forma de pago."
+        ]
+      }
+    ],
+    sources: [
+      { label: "Banco de la República — Inversión extranjera en Colombia", url: "https://www.banrep.gov.co/es/politica-monetaria-cambiaria/regulacion-operaciones-cambiarias/inversion-extranjera-colombia-colombiana-exterior" },
+      { label: "Banco de la República — Generalidades de inversiones internacionales", url: "https://www.banrep.gov.co/es/politica-monetaria-cambiaria/regulacion-operaciones-cambiarias/inversiones-internacionales-generalidades" },
+      { label: "Cancillería de Colombia — Escrituras públicas y poderes en el exterior", url: "https://www.cancilleria.gov.co/atencion-y-servicio-al-ciudadano/tramites-y-servicios/tramites-en-el-exterior/escrituras-publicas" },
+      { label: "Superintendencia de Notariado y Registro — Trámites y servicios", url: "https://www.supernotariado.gov.co/atencion-servicios-ciudadania/tramites-y-servicios/" }
+    ]
   }
 ];
 
@@ -1037,6 +1094,62 @@ export const englishArticles: Article[] = [
     ],
     sources: [
       { label: "Colombia Visas — 2026 requirements", url: "https://colombiavisas.com/important-colombian-visa-requirement-updates-for-2026/" }
+    ]
+  },
+  {
+    lang: "en",
+    slug: "buying-property-in-colombia-from-abroad",
+    alternateSlug: "comprar-propiedad-en-colombia-desde-el-exterior",
+    category: "Buying from abroad",
+    title: "Buying Property in Colombia From Abroad: A Starting Guide",
+    description: "A practical starting guide for Colombians abroad and foreign buyers: legal review, powers of attorney, international payments and registration.",
+    intro: "Buying property in Colombia while living in another country involves legal, notarial and foreign-exchange steps. This guide explains the general process and the questions to resolve before transferring funds or signing documents.",
+    readingTime: "7 min read",
+    updatedDate: "2026-09-09",
+    heroImage: "/casa/fachada-cielo-azul.webp",
+    heroAlt: "House for sale in Bucaramanga, Colombia, viewed from the street",
+    sections: [
+      {
+        heading: "Start by confirming who is buying and where the funds originate",
+        paragraphs: [
+          "Citizenship and residency are not always the same for Colombian foreign-exchange or tax purposes. Before structuring the purchase, determine whether the buyer is treated as a resident or non-resident and from which country the funds will be transferred.",
+          "When a non-resident acquires real estate in Colombia, international investment registration requirements may apply. Banco de la República maintains the applicable instructions, and the bank or foreign-exchange intermediary should receive accurate information from the beginning."
+        ]
+      },
+      {
+        heading: "Review the property before making a commitment",
+        paragraphs: [
+          "Video calls and photographs help you understand a property, but they do not replace document review. An independent Colombian lawyer can examine the title certificate, deed, tax position, limitations affecting ownership and other conditions relevant to the transaction.",
+          "Confirm that the areas, possible uses and advertised characteristics match the documents and the physical property. Renovations or changes of use require separate professional assessments and approvals."
+        ]
+      },
+      {
+        heading: "If you cannot travel, ask which power of attorney is appropriate",
+        paragraphs: [
+          "Colombian consulates provide services related to powers of attorney, signature recognition and document authentication. The correct document and formalities depend on the transaction, so a Colombian lawyer or the notary involved should prepare or review it.",
+          "Avoid granting broader powers than necessary. The document should clearly identify the authorized person, the property and the specific authority being granted."
+        ]
+      },
+      {
+        heading: "Plan the payment and keep every record",
+        paragraphs: [
+          "Do not transfer funds to unrelated third-party accounts without professional review. The price, currency, dates and conditions should be documented in the purchase agreement and the other transaction documents.",
+          "Keep bank receipts, foreign-exchange declarations and communications showing the origin and destination of the funds. A Colombian foreign-exchange intermediary can explain the correct process for the buyer's circumstances."
+        ]
+      },
+      {
+        heading: "How to view Casa 41·111 from another country",
+        paragraphs: [
+          "Casa 41·111 is located in Altos de Cabecera, Bucaramanga, and is offered directly by the owning family. We can provide a private live video tour, answer questions about the layout and coordinate an in-person visit with someone the buyer trusts.",
+          "This page provides general information and does not replace legal, tax, notarial or foreign-exchange advice. Each buyer should obtain independent guidance based on residency, nationality and method of payment."
+        ]
+      }
+    ],
+    sources: [
+      { label: "Banco de la República — Foreign investment in Colombia", url: "https://www.banrep.gov.co/es/politica-monetaria-cambiaria/regulacion-operaciones-cambiarias/inversion-extranjera-colombia-colombiana-exterior" },
+      { label: "Banco de la República — International investment overview", url: "https://www.banrep.gov.co/es/politica-monetaria-cambiaria/regulacion-operaciones-cambiarias/inversiones-internacionales-generalidades" },
+      { label: "Colombian Ministry of Foreign Affairs — Public deeds and powers of attorney abroad", url: "https://www.cancilleria.gov.co/atencion-y-servicio-al-ciudadano/tramites-y-servicios/tramites-en-el-exterior/escrituras-publicas" },
+      { label: "Superintendence of Notaries and Registration — Services", url: "https://www.supernotariado.gov.co/atencion-servicios-ciudadania/tramites-y-servicios/" }
     ]
   }
 ];
