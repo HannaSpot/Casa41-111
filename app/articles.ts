@@ -364,49 +364,52 @@ export const spanishArticles: Article[] = [
     slug: "es-segura-bucaramanga",
     alternateSlug: "is-bucaramanga-safe",
     category: "Mudarse a la ciudad",
-    title: "¿Es segura Bucaramanga? Una mirada honesta desde quienes vivimos aquí",
-    description: "Una mirada franca a la seguridad, la vida diaria y qué esperar al vivir en Bucaramanga, Colombia, para quienes piensan mudarse.",
-    intro: "Casi todas las guías sobre mudarse a Colombia apuntan a Medellín o Cartagena. Bucaramanga rara vez aparece, y esa es justo la razón por la que quienes la descubren tienden a quedarse. Respondamos la pregunta que de verdad importa, sin discurso de venta.",
+    title: "¿Es segura Bucaramanga? Cómo evaluar la ciudad antes de mudarte",
+    description: "Cómo evaluar la seguridad de Bucaramanga y de un barrio antes de comprar o mudarte, usando visitas, contexto local y datos oficiales.",
+    intro: "La respuesta responsable no es un sí o un no para toda la ciudad. La seguridad cambia según el barrio, la cuadra, la hora y los hábitos personales. Esta guía propone una forma práctica de evaluar Bucaramanga antes de comprar o mudarte.",
     readingTime: "7 minutos",
+    updatedDate: "2026-09-09",
     heroImage: "/casa/fachada-cielo-azul.webp",
     heroAlt: "Casa familiar en Altos de Cabecera, Bucaramanga",
     sections: [
       {
-        heading: "¿Es segura Bucaramanga?",
+        heading: "La seguridad se evalúa por sector, no por una etiqueta",
         paragraphs: [
-          "Dentro de Colombia, Bucaramanga es reconocida como una de las ciudades intermedias más tranquilas y ordenadas del país. Es la capital de Santander, tiene clima templado la mayor parte del año y se le conoce como la Ciudad de los Parques por la cantidad de zonas verdes repartidas por sus barrios.",
-          "Como en cualquier ciudad, la seguridad depende mucho del sector donde se viva y de los hábitos de cada quien. Lo que sorprende a muchos recién llegados es lo normal que se siente la vida diaria: la gente camina a la panadería en la mañana, las familias usan los parques en la tarde, y barrios residenciales como Cabecera tienen un ritmo de vecindario, no de zona turística."
+          "Una cifra general de Bucaramanga no describe lo que ocurre en cada barrio. Para tomar una decisión de vivienda conviene revisar información reciente por zona y combinarla con visitas presenciales, porque la actividad comercial, la iluminación, el transporte y el movimiento peatonal pueden cambiar incluso entre cuadras cercanas.",
+          "Los datos abiertos y los informes de las autoridades sirven como punto de partida, pero no constituyen una garantía individual. También importa cómo será tu rutina: horarios de llegada, recorridos a pie, uso del automóvil y cercanía a los lugares que visitarás con frecuencia."
         ]
       },
       {
-        heading: "El contexto que casi nadie menciona",
+        heading: "Cómo revisar un barrio antes de comprar",
         paragraphs: [
-          "La reputación de Colombia quedó anclada en los años 80 y 90, pero las cifras cambiaron de forma drástica. Para dar perspectiva: Medellín —alguna vez la ciudad más violenta del mundo— hoy tiene una tasa de homicidios más baja que varias ciudades de Estados Unidos como Indianápolis, y la de Bogotá es más baja que la de Filadelfia. Bucaramanga aparece de forma consistente entre las ciudades intermedias más tranquilas, lejos de las zonas que salen en las noticias.",
-          "Nada de esto significa apagar el sentido común. Como en cualquier ciudad, hay sectores y zonas de vida nocturna donde el hurto es más frecuente, y conviene saber que Bucaramanga está en zona sísmica. Pero para la vida residencial cotidiana en un barrio consolidado, la mayoría de residentes la describe como calmada, en el mejor sentido."
-        ]
-      },
-      {
-        heading: "Hábitos de sentido común (los mismos de cualquier lugar)",
-        paragraphs: [
-          "La seguridad que de verdad se siente no viene de una estadística, sino de lo pequeño y cotidiano: vecinos que uno reconoce, comercios a distancia caminable y calles con vida."
+          "Visita la zona de día y después del anochecer. Recorre las rutas que usarías hacia supermercados, parques, transporte y servicios; observa la iluminación, la visibilidad de los accesos y el movimiento real de la calle.",
+          "Habla con residentes, administradores y comerciantes cercanos, haciendo preguntas concretas sobre la cuadra. Después contrasta esas impresiones con los datos del municipio y con información reciente de las autoridades."
         ],
         bullets: [
-          "Elige bien el barrio: importa más que el nombre de la ciudad.",
-          "Conoce tu cuadra; un sector donde te reconocen es la mejor seguridad.",
-          "Usa la misma atención que usarías en cualquier ciudad que no conoces aún.",
-          "Infórmate con fuentes recientes y oficiales antes de decidir."
+          "Haz más de una visita y cambia la hora y el día.",
+          "Prueba el trayecto que realizarías habitualmente.",
+          "Pregunta por iluminación, accesos, transporte y actividad nocturna.",
+          "Consulta datos oficiales recientes y evita decidir por rankings antiguos."
         ]
       },
       {
-        heading: "El resumen honesto",
+        heading: "Altos de Cabecera desde la experiencia cotidiana",
         paragraphs: [
-          "Bucaramanga no deslumbra en un fin de semana; recompensa a quien se queda. Si tu prioridad es una ciudad segura, verde y de buen valor, con vida diaria real, y no necesitas estar en un lugar famoso, merece una mirada seria.",
-          "Esta guía comparte impresiones generales e información pública, no garantías de seguridad. Las condiciones cambian y varían por zona: consulta siempre fuentes oficiales y usa tu propio criterio antes de viajar o mudarte."
+          "La familia propietaria conoce Altos de Cabecera como un sector residencial consolidado, cercano a comercio y servicios. Esa experiencia ayuda a explicar la vida cotidiana alrededor de la casa, pero no reemplaza la evaluación independiente de cada comprador.",
+          "Si estás considerando Casa 41·111, podemos coordinar una visita o un recorrido en video para mostrar sus accesos y alrededores. Recomendamos que cada interesado verifique personalmente el sector y consulte información oficial actualizada antes de decidir."
+        ]
+      },
+      {
+        heading: "Una conclusión responsable",
+        paragraphs: [
+          "Bucaramanga puede funcionar muy bien para algunas personas y no para otras. La mejor respuesta surge de combinar datos recientes, observación directa y compatibilidad con tu rutina, no de promesas generales sobre una ciudad completa.",
+          "Este contenido es informativo y no ofrece garantías de seguridad. Las condiciones pueden cambiar; ante una emergencia en Colombia, utiliza los canales oficiales de atención."
         ]
       }
     ],
     sources: [
-      { label: "Live and Invest Overseas — Bucaramanga", url: "https://www.liveandinvestoverseas.com/country-hub/colombia/bucaramanga/" }
+      { label: "Datos Abiertos Colombia — Información delictiva de Bucaramanga", url: "https://www.datos.gov.co/" },
+      { label: "Alcaldía de Bucaramanga — Seguridad y Convivencia Ciudadana", url: "https://www.bucaramanga.gov.co/" }
     ]
   },
   {
@@ -502,45 +505,52 @@ export const spanishArticles: Article[] = [
     slug: "mudarse-a-colombia-visas-y-salud",
     alternateSlug: "moving-to-colombia-visas-healthcare",
     category: "Mudarse a la ciudad",
-    title: "Mudarse a Colombia: visas, salud y lo básico",
-    description: "Un panorama sencillo de las visas, la salud y los pasos prácticos para mudarse a Colombia, y por qué comprar propiedad puede ser parte del camino.",
-    intro: "Colombia se ha vuelto uno de los países más acogedores de la región para extranjeros que quieren vivir, jubilarse o invertir, con un camino legal bastante claro entre “probar” y “quedarse a vivir”. Este es el panorama en palabras simples.",
+    title: "Mudarse a Colombia: visas, salud y pasos que debes verificar",
+    description: "Guía inicial para entender visas, compra de vivienda y afiliación en salud al mudarse a Colombia, con fuentes oficiales para verificar requisitos.",
+    intro: "Mudarse a Colombia implica coordinar asuntos migratorios, vivienda, salud y finanzas. Las reglas dependen de la situación de cada persona y pueden cambiar, así que esta guía explica el marco general y señala qué debe verificarse en fuentes oficiales antes de tomar decisiones.",
     readingTime: "8 minutos",
+    updatedDate: "2026-09-09",
     sections: [
       {
-        heading: "Las principales rutas de visa (simplificado)",
+        heading: "Comprar una propiedad y obtener una visa son procesos distintos",
         paragraphs: [
-          "El sistema colombiano de visas se organiza en unas pocas categorías grandes que cubren desde estadías cortas hasta la residencia."
-        ],
-        bullets: [
-          "Visa de Visitante (V): turismo, estadías cortas y nómadas digitales; en general hasta unos 180 días al año.",
-          "Visa de Migrante (M): el camino de mediano plazo para establecer residencia, incluyendo por inversión, matrimonio o pensión.",
-          "Visa de Residente (R): el estatus de largo plazo que lleva con el tiempo a la ciudadanía."
+          "Una persona extranjera puede estudiar la compra de un inmueble sin suponer que esa operación le concede automáticamente permiso para vivir en Colombia. La compraventa, el registro de la inversión y la solicitud de visa tienen requisitos y autoridades diferentes.",
+          "Si la decisión de compra depende de obtener una visa, conviene confirmar primero la categoría aplicable con la Cancillería y recibir asesoría jurídica independiente. No debe firmarse ni transferirse dinero basándose únicamente en una cifra vista en una guía comercial."
         ]
       },
       {
-        heading: "La ruta de inversión (relevante si vas a comprar)",
+        heading: "Las categorías V, M y R, en términos generales",
         paragraphs: [
-          "Una compra de vivienda que califique puede dar acceso a la visa de inversión (M-10), un paso reconocido hacia la residencia permanente y, con el tiempo, la ciudadanía. Para 2026 el umbral es de 350 salarios mínimos (SMMLV), fijado en pesos en unos COP 612.816.750 desde el 1 de enero de 2026, lo que equivale aproximadamente a USD 155.000–170.000 según el cambio del día.",
-          "Dos cosas clave: migración evalúa el valor registrado en la escritura, no un valor informal, así que el precio escriturado es el que debe superar el umbral. Y comprar no otorga la visa automáticamente: hay que registrar la inversión ante el Banco de la República y solicitar la visa por separado.",
-          "Verifica el umbral vigente antes de contar con él: se recalcula cada enero con el salario mínimo, se mueve con el cambio y el salario mínimo de 2026 está bajo revisión legal. Confirma con Cancillería o un abogado de inmigración."
+          "La Cancillería organiza las visas en tres grupos generales: Visitante (V), Migrante (M) y Residente (R). Dentro de cada grupo existen tipos específicos con actividades autorizadas, vigencias, documentos y restricciones propias.",
+          "La visa V está pensada para diferentes visitas y no equivale por sí sola a residencia. Las visas M cubren varias situaciones de permanencia de mediano plazo, y las visas R corresponden a supuestos específicos de residencia. El nombre de una categoría no permite concluir que una persona califica: debe revisarse el tipo exacto."
         ]
       },
       {
-        heading: "Derechos de propiedad para extranjeros",
+        heading: "Cuando una inversión inmobiliaria puede ser relevante",
         paragraphs: [
-          "Una de las verdaderas fortalezas de Colombia: los extranjeros tienen prácticamente los mismos derechos de propiedad que los ciudadanos, sin restricciones por nacionalidad ni zonas prohibidas en la mayoría de vivienda residencial, y ni siquiera hace falta ser residente —ni estar en el país— para comprar. Colombia además permite la doble nacionalidad."
+          "La regulación contempla tipos de visa relacionados con inversión, incluida la inversión inmobiliaria cuando se cumplen las condiciones vigentes. Esto no convierte cualquier compra en una ruta migratoria ni garantiza la aprobación de una solicitud.",
+          "Los umbrales, documentos, registros y condiciones deben consultarse directamente en la ficha oficial del tipo de visa el día de preparar la operación. Además, el comprador debe revisar por separado el título, los impuestos, la forma de pago y las obligaciones cambiarias de la compraventa."
         ]
       },
       {
-        heading: "Salud e idioma",
+        heading: "Salud: la afiliación depende de tu situación migratoria",
         paragraphs: [
-          "Colombia es reconocida por una atención en salud de buena calidad y bajo costo, sobre todo en las ciudades grandes; los seguros privados y la medicina prepagada son asequibles para estándares norteamericanos. No se exige examen de idioma para la residencia, aunque el español sí es requisito para la naturalización. En una ciudad como Bucaramanga, aprender español no es opcional en la vida diaria y es lo que más ayuda a sentirse en casa."
+          "El acceso y la afiliación al Sistema General de Seguridad Social en Salud dependen, entre otros factores, de la condición migratoria, los documentos válidos y la situación laboral o económica de la persona. El Ministerio de Salud publica orientaciones para población extranjera y migrante.",
+          "Antes de viajar, confirma qué cobertura tendrás durante la transición y qué documentos necesitarás para afiliarte. Los seguros privados y planes complementarios tienen condiciones, exclusiones y precios propios que deben compararse directamente con cada entidad."
+        ]
+      },
+      {
+        heading: "Lista práctica antes de mudarte",
+        paragraphs: [
+          "Verifica tu categoría migratoria, vigencia del pasaporte, cobertura de salud, tratamiento tributario y procedimiento para transferir fondos. Si vas a comprar desde otro país, revisa también nuestra guía dedicada a la compra de propiedad en Colombia desde el exterior.",
+          "Este artículo ofrece información general y no reemplaza asesoría migratoria, jurídica, tributaria o médica. Consulta siempre las páginas oficiales y profesionales independientes para tu caso."
         ]
       }
     ],
     sources: [
-      { label: "Colombia Visas — Requisitos 2026", url: "https://colombiavisas.com/important-colombian-visa-requirement-updates-for-2026/" }
+      { label: "Cancillería de Colombia — Tipos de visa", url: "https://www.cancilleria.gov.co/atencion-y-servicio-al-ciudadano/tramites-y-servicios/visa/tipos-de-visa" },
+      { label: "Cancillería de Colombia — Resolución 5477 de 2022", url: "https://www.cancilleria.gov.co/sites/default/files/Normograma/docs/resolucion_minrelaciones_5477_2022.htm" },
+      { label: "Ministerio de Salud — Afiliación de extranjeros al sistema de salud", url: "https://www2.minsalud.gov.co/proteccionsocial/Paginas/afiliacion-al-sistema-de-seguridad-social-en-salud-de-extranjeros-y-colombianos-retornados.aspx" }
     ]
   },
   {
@@ -999,49 +1009,52 @@ export const englishArticles: Article[] = [
     slug: "is-bucaramanga-safe",
     alternateSlug: "es-segura-bucaramanga",
     category: "Moving to the city",
-    title: "Is Bucaramanga Safe? An Honest Look at Living in Colombia's City of Parks",
-    description: "A candid look at safety, daily life, and what to expect as a foreigner living in Bucaramanga, Colombia — from someone who lives here.",
-    intro: "Almost every article about moving to Colombia points you to Medellín or Cartagena. Bucaramanga rarely comes up — and that's exactly why the people who do find it tend to stay. Let's answer the question you actually came here for, without the sales pitch.",
+    title: "Is Bucaramanga Safe? How to Evaluate the City Before Moving",
+    description: "How to assess safety in Bucaramanga and a specific neighborhood before buying or moving, using visits, local context and official data.",
+    intro: "The responsible answer is not a simple yes or no for an entire city. Safety varies by neighborhood, block, time of day and personal routine. This guide offers a practical way to evaluate Bucaramanga before buying or moving.",
     readingTime: "7 min read",
+    updatedDate: "2026-09-09",
     heroImage: "/casa/fachada-cielo-azul.webp",
     heroAlt: "Family home in Altos de Cabecera, Bucaramanga",
     sections: [
       {
-        heading: "Is Bucaramanga safe?",
+        heading: "Assess the area, not a citywide label",
         paragraphs: [
-          "Within Colombia, Bucaramanga is widely known as one of the calmer, more orderly mid-sized cities in the country. It's the capital of Santander, has spring-like weather most of the year, and is nicknamed the City of Parks for the green spaces woven through its neighborhoods.",
-          "Like any city, safety depends heavily on where you live and the habits you keep. What surprises most newcomers is how normal daily life feels: people walk to the bakery in the morning, families use the parks in the evening, and residential neighborhoods like Cabecera have a real neighborhood rhythm rather than a tourist one."
+          "A citywide statistic cannot describe every part of Bucaramanga. A housing decision calls for recent information at neighborhood level and in-person visits, because lighting, commercial activity, transit and pedestrian traffic may change between nearby blocks.",
+          "Official data is a useful starting point, but it is not an individual guarantee. Your expected routine also matters: arrival times, walking routes, transportation and proximity to the places you will use regularly."
         ]
       },
       {
-        heading: "The context most people miss",
+        heading: "How to evaluate a neighborhood before buying",
         paragraphs: [
-          "Colombia's reputation is stuck in the 1980s and 90s, but the numbers have moved on dramatically. For perspective: Medellín — once the world's murder capital — now has a homicide rate lower than several U.S. cities like Indianapolis, and Bogotá's is lower than Philadelphia's. Bucaramanga is consistently described as one of the calmer mid-sized cities, well away from the areas that make headlines.",
-          "None of this means switching off your judgment. As in any city, there are areas and nightlife zones where petty theft is more common, and it's worth knowing Bucaramanga sits in a seismic zone. But for everyday residential life in an established neighborhood, most residents find it calm — in the best way."
-        ]
-      },
-      {
-        heading: "Common-sense habits (the same anywhere)",
-        paragraphs: [
-          "The safety you actually feel doesn't come from a statistic — it comes from the small and daily: neighbors you recognize, shops within walking distance, and streets with life."
+          "Visit during the day and after dark. Walk the routes you would use to reach supermarkets, parks, transportation and services; observe lighting, entrance visibility and actual street activity.",
+          "Speak with residents, building managers and nearby businesses, asking specific questions about the block. Then compare those impressions with municipal data and current information from authorities."
         ],
         bullets: [
-          "Choose your neighborhood carefully — it matters more than the city name.",
-          "Get to know your block; a place where people know you is the best security there is.",
-          "Use the same street awareness you'd use in any city you don't yet know.",
-          "Check current, official sources before deciding."
+          "Visit more than once and vary the time and day.",
+          "Test the route you would normally travel.",
+          "Ask about lighting, access, transportation and nighttime activity.",
+          "Use current official data rather than old rankings."
         ]
       },
       {
-        heading: "The honest summary",
+        heading: "Altos de Cabecera in everyday life",
         paragraphs: [
-          "Bucaramanga won't dazzle you in a weekend; it rewards people who stay. If your priority is a safe, green, good-value city with real daily life — and you don't need to be somewhere famous — it deserves a serious look.",
-          "This article shares general impressions and publicly available information, not safety guarantees. Conditions change and vary by area: always check official sources and use your own judgment before traveling or relocating."
+          "The owning family knows Altos de Cabecera as an established residential area near shops and services. That experience helps describe daily life around the house, but it does not replace each buyer's independent assessment.",
+          "If you are considering Casa 41·111, we can arrange a visit or live video tour showing its access points and surroundings. We recommend that every buyer evaluate the area personally and consult current official information before deciding."
+        ]
+      },
+      {
+        heading: "A responsible conclusion",
+        paragraphs: [
+          "Bucaramanga may suit some people very well and others less so. The best answer combines recent data, direct observation and compatibility with your routine, rather than broad promises about an entire city.",
+          "This content is informational and does not guarantee safety. Conditions may change; use official emergency channels when assistance is required in Colombia."
         ]
       }
     ],
     sources: [
-      { label: "Live and Invest Overseas — Bucaramanga", url: "https://www.liveandinvestoverseas.com/country-hub/colombia/bucaramanga/" }
+      { label: "Colombia Open Data — Bucaramanga crime information", url: "https://www.datos.gov.co/" },
+      { label: "Bucaramanga City Government — Safety and coexistence", url: "https://www.bucaramanga.gov.co/" }
     ]
   },
   {
@@ -1137,45 +1150,52 @@ export const englishArticles: Article[] = [
     slug: "moving-to-colombia-visas-healthcare",
     alternateSlug: "mudarse-a-colombia-visas-y-salud",
     category: "Moving to the city",
-    title: "Moving to Colombia: Visas, Healthcare & the Basics",
-    description: "A plain-English overview of the visas, healthcare, and practical steps for moving to Colombia — and why buying property can be part of the path.",
-    intro: "Colombia has become one of the more welcoming countries in the region for foreigners who want to live, retire, or invest, with a fairly clear legal path from 'trying it out' to 'permanent home.' Here's the plain-language overview.",
+    title: "Moving to Colombia: Visas, Healthcare and What to Verify",
+    description: "A starting guide to visas, home purchases and healthcare enrollment when moving to Colombia, with official sources for current requirements.",
+    intro: "Moving to Colombia involves coordinating immigration, housing, healthcare and finances. Rules depend on each person's circumstances and may change, so this guide explains the general framework and what to verify in official sources before making decisions.",
     readingTime: "8 min read",
+    updatedDate: "2026-09-09",
     sections: [
       {
-        heading: "The main visa paths (simplified)",
+        heading: "Buying property and obtaining a visa are separate processes",
         paragraphs: [
-          "Colombia's visa system is organized into a few broad categories covering everything from short stays to residency."
-        ],
-        bullets: [
-          "Visitor (V) visa: tourists, short stays and digital nomads; generally up to around 180 days per year.",
-          "Migrant (M) visa: the medium-term path to residency, including through investment, marriage, or a pension.",
-          "Resident (R) visa: the long-term status that leads, in time, to citizenship."
+          "A foreign buyer may explore purchasing real estate without assuming that the transaction automatically grants permission to live in Colombia. The purchase, investment registration and visa application involve different requirements and authorities.",
+          "If a purchase decision depends on obtaining a visa, first confirm the applicable category with Colombia's Ministry of Foreign Affairs and obtain independent legal advice. Do not sign or transfer funds based only on a figure published in a commercial guide."
         ]
       },
       {
-        heading: "The investment route (relevant if you're buying)",
+        heading: "The V, M and R categories in general terms",
         paragraphs: [
-          "A qualifying home purchase can open the investment (M-10) visa, a recognized step toward permanent residency and, in time, citizenship. For 2026 the threshold is 350 monthly minimum salaries (SMMLV), fixed in pesos at about COP 612,816,750 as of January 1, 2026 — roughly USD 155,000–170,000 depending on the exchange rate.",
-          "Two key things: immigration evaluates the value registered on the deed (escritura), not any informal figure, so the registered price is what must exceed the threshold. And buying does not grant the visa automatically: you must register the investment through the Banco de la República and apply for the visa separately.",
-          "Verify the current threshold before relying on it — it's recalculated every January with the minimum wage, moves with the exchange rate, and the 2026 minimum wage is under legal review. Confirm with Cancillería or an immigration lawyer."
+          "Colombia's Ministry of Foreign Affairs organizes visas into three broad groups: Visitor (V), Migrant (M) and Resident (R). Each group contains specific visa types with their own authorized activities, validity periods, documentation and restrictions.",
+          "A V visa covers different kinds of visits and does not by itself amount to resident status. M visas cover several medium-term circumstances, while R visas apply to specific residence cases. A category name alone does not show that someone qualifies; the exact visa type must be reviewed."
         ]
       },
       {
-        heading: "Property rights for foreigners",
+        heading: "When a real-estate investment may be relevant",
         paragraphs: [
-          "One of Colombia's real strengths: foreigners have essentially the same property rights as citizens, with no nationality restrictions or restricted zones on most residential property, and you don't even need to be a resident — or in the country — to buy. Colombia also allows dual citizenship."
+          "Colombian regulations include visa types connected to investment, including real-estate investment when current conditions are met. This does not make every purchase an immigration route or guarantee approval.",
+          "Thresholds, documents, registrations and conditions should be checked on the official visa page when preparing the transaction. The buyer must separately review title, taxes, payment structure and foreign-exchange obligations for the purchase."
         ]
       },
       {
-        heading: "Healthcare and language",
+        heading: "Healthcare enrollment depends on immigration status",
         paragraphs: [
-          "Colombia is known for good-quality, low-cost healthcare, especially in major cities; private insurance and prepaid plans are affordable by North American standards. No language test is required for residency, though Spanish is required for naturalization. In a city like Bucaramanga, learning Spanish isn't optional in daily life — and it's the single biggest thing that will make you feel at home."
+          "Access to and enrollment in Colombia's General Social Security Health System depend, among other factors, on immigration status, valid identification and the person's employment or financial circumstances. The Ministry of Health publishes guidance for foreign and migrant residents.",
+          "Before traveling, confirm what coverage you will have during the transition and which documents you will need for enrollment. Private insurance and supplementary plans have their own eligibility rules, exclusions and prices that should be compared directly with each provider."
+        ]
+      },
+      {
+        heading: "A practical checklist before moving",
+        paragraphs: [
+          "Confirm your immigration category, passport validity, healthcare coverage, tax treatment and procedure for transferring funds. If you plan to buy from another country, also read our dedicated guide to buying property in Colombia from abroad.",
+          "This article provides general information and does not replace immigration, legal, tax or medical advice. Always consult official pages and independent professionals about your circumstances."
         ]
       }
     ],
     sources: [
-      { label: "Colombia Visas — 2026 requirements", url: "https://colombiavisas.com/important-colombian-visa-requirement-updates-for-2026/" }
+      { label: "Colombian Ministry of Foreign Affairs — Visa types", url: "https://www.cancilleria.gov.co/atencion-y-servicio-al-ciudadano/tramites-y-servicios/visa/tipos-de-visa" },
+      { label: "Colombian Ministry of Foreign Affairs — Resolution 5477 of 2022", url: "https://www.cancilleria.gov.co/sites/default/files/Normograma/docs/resolucion_minrelaciones_5477_2022.htm" },
+      { label: "Ministry of Health — Health-system enrollment for foreigners", url: "https://www2.minsalud.gov.co/proteccionsocial/Paginas/afiliacion-al-sistema-de-seguridad-social-en-salud-de-extranjeros-y-colombianos-retornados.aspx" }
     ]
   },
   {
