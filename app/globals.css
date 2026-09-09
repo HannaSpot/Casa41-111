@@ -195,6 +195,10 @@ footer{font-size:14px}
 .articleSources h2{font-size:31px}
 .articleSources li{margin:10px 0}
 .articleSources a{color:var(--ink);text-underline-offset:4px}
+.articleRelated{padding:38px 42px;background:#f3eadb;border:1px solid var(--line)}
+.articleRelated h2{font-size:31px}
+.articleRelated li{margin:14px 0}
+.articleRelated a{color:var(--ink);text-decoration-thickness:1px;text-underline-offset:5px}
 .articleAside{position:sticky;top:30px;padding:38px 32px;background:#f1e3cc;border:1px solid var(--line)}
 .articleAside h2{font-family:Georgia,"Times New Roman",serif;font-size:35px;font-weight:400;line-height:1.08;margin:0 0 20px}
 .articleAside>p:not(.eyebrow){font-size:16px;line-height:1.6;margin-bottom:26px}
