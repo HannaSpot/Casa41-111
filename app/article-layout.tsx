@@ -1,5 +1,5 @@
 import Link from "next/link";
-import type { Article } from "./articles";
+import { getArticle, type Article } from "./articles";
 import { siteUrl } from "./site-config";
 import { ContactLink, WhatsAppLink } from "./tracked-links";
 
@@ -10,6 +10,34 @@ export default function ArticleLayout({ article }: { article: Article }) {
     ? `/en/living-in-bucaramanga/${article.alternateSlug}`
     : `/vida-en-bucaramanga/${article.alternateSlug}`;
   const canonicalPath = `${indexHref}/${article.slug}`;
+  const relatedSlugs: Record<string, string[]> = {
+    "vivir-en-bucaramanga": ["vivir-en-altos-de-cabecera", "casas-grandes-en-venta-en-bucaramanga", "plazas-de-mercado-de-bucaramanga"],
+    "vivir-en-altos-de-cabecera": ["casas-grandes-en-venta-en-bucaramanga", "caminatas-parques-y-senderos", "comprar-y-renovar-una-casa-en-bucaramanga"],
+    "caminatas-parques-y-senderos": ["vivir-en-altos-de-cabecera", "vivir-en-bucaramanga", "comida-restaurantes-y-cafes"],
+    "plazas-de-mercado-de-bucaramanga": ["comida-restaurantes-y-cafes", "vivir-en-bucaramanga", "vivir-en-altos-de-cabecera"],
+    "comida-restaurantes-y-cafes": ["plazas-de-mercado-de-bucaramanga", "vivir-en-altos-de-cabecera", "costo-de-vida-en-bucaramanga"],
+    "comprar-y-renovar-una-casa-en-bucaramanga": ["casas-grandes-en-venta-en-bucaramanga", "comprar-propiedad-en-colombia-desde-el-exterior", "vivir-en-altos-de-cabecera"],
+    "es-segura-bucaramanga": ["vivir-en-bucaramanga", "vivir-en-altos-de-cabecera", "costo-de-vida-en-bucaramanga"],
+    "es:bucaramanga-vs-medellin": ["costo-de-vida-en-bucaramanga", "vivir-en-bucaramanga", "es-segura-bucaramanga"],
+    "costo-de-vida-en-bucaramanga": ["bucaramanga-vs-medellin", "vivir-en-bucaramanga", "comida-restaurantes-y-cafes"],
+    "mudarse-a-colombia-visas-y-salud": ["comprar-propiedad-en-colombia-desde-el-exterior", "costo-de-vida-en-bucaramanga", "vivir-en-bucaramanga"],
+    "comprar-propiedad-en-colombia-desde-el-exterior": ["casas-grandes-en-venta-en-bucaramanga", "comprar-y-renovar-una-casa-en-bucaramanga", "mudarse-a-colombia-visas-y-salud"],
+    "casas-grandes-en-venta-en-bucaramanga": ["comprar-y-renovar-una-casa-en-bucaramanga", "vivir-en-altos-de-cabecera", "comprar-propiedad-en-colombia-desde-el-exterior"],
+    "living-in-bucaramanga": ["living-in-altos-de-cabecera", "large-houses-for-sale-in-bucaramanga", "food-markets-in-bucaramanga"],
+    "living-in-altos-de-cabecera": ["large-houses-for-sale-in-bucaramanga", "walks-parks-and-trails", "buying-and-renovating-a-house-in-bucaramanga"],
+    "walks-parks-and-trails": ["living-in-altos-de-cabecera", "living-in-bucaramanga", "food-restaurants-and-cafes"],
+    "food-markets-in-bucaramanga": ["food-restaurants-and-cafes", "living-in-bucaramanga", "living-in-altos-de-cabecera"],
+    "food-restaurants-and-cafes": ["food-markets-in-bucaramanga", "living-in-altos-de-cabecera", "cost-of-living-bucaramanga"],
+    "buying-and-renovating-a-house-in-bucaramanga": ["large-houses-for-sale-in-bucaramanga", "buying-property-in-colombia-from-abroad", "living-in-altos-de-cabecera"],
+    "is-bucaramanga-safe": ["living-in-bucaramanga", "living-in-altos-de-cabecera", "cost-of-living-bucaramanga"],
+    "bucaramanga-vs-medellin": ["cost-of-living-bucaramanga", "living-in-bucaramanga", "is-bucaramanga-safe"],
+    "cost-of-living-bucaramanga": ["bucaramanga-vs-medellin", "living-in-bucaramanga", "food-restaurants-and-cafes"],
+    "moving-to-colombia-visas-healthcare": ["buying-property-in-colombia-from-abroad", "cost-of-living-bucaramanga", "living-in-bucaramanga"],
+    "buying-property-in-colombia-from-abroad": ["large-houses-for-sale-in-bucaramanga", "buying-and-renovating-a-house-in-bucaramanga", "moving-to-colombia-visas-healthcare"],
+    "large-houses-for-sale-in-bucaramanga": ["buying-and-renovating-a-house-in-bucaramanga", "living-in-altos-de-cabecera", "buying-property-in-colombia-from-abroad"]
+  };
+  const relationKey = article.lang === "es" && article.slug === "bucaramanga-vs-medellin" ? `es:${article.slug}` : article.slug;
+  const relatedArticles = (relatedSlugs[relationKey] || []).map(slug => getArticle(article.lang, slug)).filter((item): item is Article => Boolean(item));
   const schema = {
     "@context": "https://schema.org",
     "@graph": [
@@ -68,6 +96,11 @@ export default function ArticleLayout({ article }: { article: Article }) {
             {section.paragraphs.map(paragraph => <p key={paragraph}>{paragraph}</p>)}
             {section.bullets && <ul>{section.bullets.map(item => <li key={item}>{item}</li>)}</ul>}
           </section>)}
+
+          {relatedArticles.length > 0 && <section className="articleRelated">
+            <h2>{isSpanish ? "También te puede interesar" : "Related guides"}</h2>
+            <ul>{relatedArticles.map(item => <li key={item.slug}><Link href={`${indexHref}/${item.slug}`}>{item.title}</Link></li>)}</ul>
+          </section>}
 
           {article.sources.length > 0 && <section className="articleSources">
             <h2>{isSpanish ? "Fuentes consultadas" : "Sources"}</h2>
