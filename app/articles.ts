@@ -331,6 +331,14 @@ export const spanishArticles: Article[] = [
         ]
       },
       {
+        heading: "Estudiar apartaestudios o estadías cortas como posibilidad",
+        paragraphs: [
+          "Por su amplitud, sus cinco niveles y la existencia de áreas con distintos grados de independencia, una casa como esta también puede interesar a quien quiera estudiar un proyecto de apartaestudios, alojamiento boutique o renta de corta estancia.",
+          "La familia propietaria ha identificado al menos tres alojamientos cercanos publicados en Airbnb que ofrecen unidades pequeñas creadas mediante la remodelación de casas. Es una referencia local útil, pero no demuestra que el mismo uso esté aprobado para esta propiedad ni garantiza ocupación o rentabilidad.",
+          "Antes de hacer una proyección deben verificarse uso del suelo, licencias, requisitos de seguridad, parqueaderos, operación, impuestos y costos de adecuación con profesionales y autoridades competentes."
+        ]
+      },
+      {
         heading: "El local y el frente de la propiedad",
         paragraphs: [
           "El espacio que anteriormente funcionaba como parqueadero fue convertido en un local comercial para producir un ingreso para la propietaria. Actualmente está arrendado. Un comprador deberá revisar el contrato, el canon, su vigencia y las condiciones de terminación o continuidad.",
@@ -629,7 +637,7 @@ export const spanishArticles: Article[] = [
         heading: "Entender los espacios independientes",
         paragraphs: [
           "Algunas casas incluyen una oficina, local o zona que puede funcionar con cierta independencia. Si el espacio está arrendado, el comprador debe revisar el contrato, el canon, la vigencia y las condiciones de continuidad o terminación.",
-          "Tener un área independiente puede ser útil, pero no autoriza por sí solo cualquier actividad. El uso permitido debe confirmarse según la normativa aplicable al inmueble."
+          "Tener un área independiente puede ser útil para estudiar una vivienda con trabajo, apartaestudios o un alojamiento de corta estancia. Esto no autoriza por sí solo ninguna actividad: el uso permitido y las adecuaciones necesarias deben confirmarse según la normativa aplicable al inmueble."
         ]
       },
       {
@@ -958,6 +966,14 @@ export const englishArticles: Article[] = [
         ]
       },
       {
+        heading: "Study apartments or short stays as a possibility",
+        paragraphs: [
+          "Because of its size, five-level layout and areas with varying degrees of independence, a house like this may also interest a buyer who wants to study a serviced-apartment, boutique accommodation or short-term rental concept.",
+          "The owning family has identified at least three nearby Airbnb listings offering small units created by remodeling houses. This is a useful local reference, but it does not show that the same use is approved for this property or guarantee occupancy or returns.",
+          "Before preparing projections, the buyer should verify land use, permits, safety requirements, parking, operations, taxes and renovation costs with qualified professionals and the relevant authorities."
+        ]
+      },
+      {
         heading: "The commercial unit and the property frontage",
         paragraphs: [
           "A former front parking area was converted into a commercial unit to provide income for the owner. It is currently rented. A buyer should review the lease, rent, term and conditions for continuation or termination.",
@@ -1256,7 +1272,7 @@ export const englishArticles: Article[] = [
         heading: "Understand independent spaces",
         paragraphs: [
           "Some houses include an office, shop or other area with a degree of independence. If that space is rented, buyers should review the lease, rent, term and conditions for continuation or termination.",
-          "An independent area can be useful, but it does not automatically authorize every activity. Permitted use should be confirmed under the rules that apply to the property."
+          "An independent area can be useful when studying a home-and-work arrangement, small apartments or short-term accommodation. It does not automatically authorize any activity: permitted use and required alterations must be confirmed under the rules that apply to the property."
         ]
       },
       {
