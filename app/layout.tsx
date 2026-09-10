@@ -1,7 +1,14 @@
 import type { Metadata } from "next";
+import { Bebas_Neue } from "next/font/google";
 import "./globals.css";
 import GoogleAnalytics from "./google-analytics";
 import { siteUrl } from "./site-config";
+
+const bebasNeue = Bebas_Neue({
+  weight: "400",
+  subsets: ["latin"],
+  variable: "--font-bebas-neue",
+});
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -43,7 +50,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es-CO">
-      <body className="antialiased">
+      <body className={`${bebasNeue.variable} antialiased`}>
         {children}
         <GoogleAnalytics />
       </body>
