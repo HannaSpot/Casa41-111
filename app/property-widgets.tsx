@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 
 const ASKING_PRICE_COP = 1_800_000_000;
-const currencies = ["USD", "EUR", "CHF", "GBP", "CAD"] as const;
+const currencies = ["USD", "EUR", "CHF", "GBP", "CAD", "BTC"] as const;
 type Currency = (typeof currencies)[number];
 
 const weatherLabels: Record<number, { es: string; en: string; icon: string }> = {
@@ -38,6 +38,11 @@ export default function PropertyWidgets({ lang = "es" }: { lang?: "es" | "en" })
       })
       .catch(() => setRates({}));
 
+    fetch("https://api.coinbase.com/v2/exchange-rates?currency=COP")
+      .then(response => response.ok ? response.json() : Promise.reject())
+      .then(data => setRates(current => ({ ...current, BTC: Number(data.data.rates.BTC) })))
+      .catch(() => undefined);
+
     fetch("https://api.open-meteo.com/v1/forecast?latitude=7.1254&longitude=-73.1198&current=temperature_2m,apparent_temperature,weather_code&timezone=America%2FBogota")
       .then(response => response.ok ? response.json() : Promise.reject())
       .then(data => setWeather({
@@ -58,7 +63,7 @@ export default function PropertyWidgets({ lang = "es" }: { lang?: "es" | "en" })
         <div className="widgetIcon" aria-hidden="true">$</div>
         <div className="widgetBody">
           <span>{lang === "es" ? "Precio convertido" : "Converted price"}</span>
-          <strong>{converted ? new Intl.NumberFormat(locale, { style: "currency", currency, maximumFractionDigits: 0 }).format(converted) : (lang === "es" ? "Consultando tasa…" : "Loading rate…")}</strong>
+          <strong>{converted ? currency === "BTC" ? `${new Intl.NumberFormat(locale, { maximumFractionDigits: 4 }).format(converted)} BTC` : new Intl.NumberFormat(locale, { style: "currency", currency, maximumFractionDigits: 0 }).format(converted) : (lang === "es" ? "Consultando tasa…" : "Loading rate…")}</strong>
           <small>{lang === "es" ? "Referencia para COP $1.800 millones" : "Reference for COP $1.8 billion"}</small>
         </div>
         <label>
