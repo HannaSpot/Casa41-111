@@ -267,3 +267,11 @@ footer{font-size:14px}
 .srOnly{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 @media(max-width:760px){.propertyWidgetsGrid{grid-template-columns:1fr}.compactWidget{min-height:104px}.widgetNote{text-align:left}}
 @media(max-width:480px){.propertyWidgets{padding:16px 0}.compactWidget{gap:12px;padding:17px 14px}.widgetIcon{flex-basis:44px;width:44px;height:44px;font-size:24px}.widgetBody strong{font-size:21px}.widgetBody>span{font-size:11px;letter-spacing:.09em}.compactWidget select{min-width:65px;padding-inline:6px}.widgetNote{font-size:11px}}
+
+/* Bebas Neue for every page title and section title */
+h1,h2,h3,.faqList summary{
+  font-family:var(--font-bebas-neue),Impact,"Arial Narrow",sans-serif!important;
+  font-weight:400;
+  text-transform:uppercase;
+  letter-spacing:.025em;
+}
